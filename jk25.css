@@ -2,3 +2,11 @@ p {
 	color: blue;
 	margin-left: 100px;
 }
+
+jk-menu-item {
+	background-color: #FF69B4;
+}
+
+jk-title-location {
+	color: #FF69B4;
+}
