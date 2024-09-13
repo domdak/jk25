@@ -15,6 +15,6 @@ a.glossary::after {
   content: " " url("https://cdn.iconscout.com/icon/premium/png-256-thumb/dictionary-1876901-1589686.png");
 }
 
-footer {
+.jk-footer {
 	content: " " url("https://www.southyorkshireorienteers.org.uk/media/templates/site/syo/images/SYO_Footer_Silhouette.gif");
 }
