@@ -10,3 +10,7 @@ p {
 .jk-title-location {
 	color: #FF69B4;
 }
+
+a.glossary::after {
+  content: " " url("https://cdn.iconscout.com/icon/premium/png-256-thumb/dictionary-1876901-1589686.png");
+}
