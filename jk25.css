@@ -15,6 +15,6 @@ a.glossary::after {
   content: " " url("https://cdn.iconscout.com/icon/premium/png-256-thumb/dictionary-1876901-1589686.png");
 }
 
-div.jk-footer::after {
-	content: " " url("https://cdn.iconscout.com/icon/premium/png-256-thumb/dictionary-1876901-1589686.png");
+footer::before {
+	content: " " url("https://domdak.github.io/jk25/JK_Footer.gif");
 }
