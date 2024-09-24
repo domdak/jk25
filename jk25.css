@@ -69,25 +69,25 @@ li {
     --anim-duration: 2s;
 }
 
-.jk-menu-item.active {
+li.jk-menu-item.active {
     opacity: 0.8;
     background: none;
 }
 
-.jk-menu-item.active:after,
-.jk-menu-item.active:before {
+li.jk-menu-item.active:after,
+li.jk-menu-item.active:before {
     content: '';
     display: block;
     position: absolute;
     top: 0; bottom: 0; left: 0; right: 0;
 }
 
-.jk-menu-item.active:before {
+li.jk-menu-item.active:before {
     background: linear-gradient(135deg, var(--overlay-color-2) 0%, var(--overlay-color-1) 100%);
     animation: OpacityAnim var(--anim-duration) ease-in-out 0s infinite alternate;
 }
 
-.jk-menu-item.active:after {
+li.jk-menu-item.active:after {
     background: linear-gradient(135deg, var(--overlay-color-1) 0%, var(--overlay-color-2) 100%);
     animation: OpacityAnim var(--anim-duration) ease-in-out calc(-1 * var(--anim-duration)) infinite alternate;
 }
