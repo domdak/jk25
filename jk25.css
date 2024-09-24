@@ -23,6 +23,7 @@ p {
 
 .jk-menu-item.active {
 	background-color: Green;
+	font-size: 150%;
 }
 
 .jk-menu .active .jk-menu-link {
