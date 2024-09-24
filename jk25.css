@@ -11,8 +11,8 @@ p {
 	color: #FF69B4;
 }
 
-a.glossary::after {
-  content: " " url("https://cdn.iconscout.com/icon/premium/png-256-thumb/dictionary-1876901-1589686.png");
+.jk-central::after {
+  content: " " url("https://domdak.github.io/jk25/JK_Footer.gif");
 }
 
 .jk-footer {
