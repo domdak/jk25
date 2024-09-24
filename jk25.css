@@ -20,8 +20,7 @@ p {
 	background-repeat: no-repeat;
 }
 
-.jJJk-menu-item.active {
-	background-color: Green;
+.jk-menu-item.active {
 	font-size: 150%;
 }
 
