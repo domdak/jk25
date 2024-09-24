@@ -54,3 +54,7 @@ li {
     margin-bottom: 0rem !important;
 	margin-top: 0rem !important;
 }
+
+.jk-menu-item {
+	margin: 0;
+}
