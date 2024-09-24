@@ -30,7 +30,8 @@ p {
 	font-family: 'Wingdings'
 }
 
-[href*='457'] {
+[href*='458'],[href*='459'] {
 	font-size: 150%;
 	font-weight: bold;
+	color: White;
 }
