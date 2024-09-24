@@ -20,3 +20,12 @@ p {
 	  background-size: cover;
 	background-repeat: no-repeat;
 }
+
+.jk-menu-item.active {
+	background-color: Green;
+}
+
+.jk-menu .active .jk-menu-link {
+	color: White;
+	font-family: 'Wingdings'
+}
