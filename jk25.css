@@ -11,13 +11,17 @@ p {
 	color: #FF69B4;
 }
 
-.jk-central::after {
+.jk-f00ter::after {
   content: " " url("https://domdak.github.io/jk25/JK_Footer.gif");
 }
 
-.jk-footer {
+.jk-central::after {
 	height: 10.864283235vw;
    background-image:url('https://domdak.github.io/jk25/JK_Footer.gif');
 	  background-size: cover;
 	background-repeat: no-repeat;
+}
+
+
+.jk-footer {
 }
