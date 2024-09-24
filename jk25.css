@@ -36,3 +36,16 @@ p {
 	font-weight: bold;
 	color: White;
 }
+
+li {
+	float: left;
+}
+
+.col-lg-4, .col-lg-8 {
+	    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.jk-nav-col {
+	order: 0;
+}
