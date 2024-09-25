@@ -8,6 +8,7 @@ p {
 	min-width: 7em;
 	text-align: center;
 	margin-right: .75em !important;
+	border-bottom: 5px solid red;
 }
 
 .jk-title-location {
