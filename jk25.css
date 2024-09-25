@@ -4,6 +4,10 @@ p {
 
 .jk-menu-item {
 	background-color: #17a2b8;
+	float: left;
+	min-width: 7em;
+	text-align: center;
+	margin-right: .75em !important;
 }
 
 .jk-title-location {
@@ -32,12 +36,6 @@ p {
 [href*='458'],[href*='459'] {
 	font-weight: bold;
 	color: White;
-}
-
-li {
-	float: left;
-	min-width: 7em;
-	text-align: center;
 }
 
 .col-lg-4, .col-lg-8 {
