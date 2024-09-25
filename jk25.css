@@ -3,7 +3,7 @@ p {
 }
 
 .jk-menu-item {
-	background-color: #FF69B4;
+	background-color: #17a2b8;
 }
 
 .jk-title-location {
@@ -21,22 +21,23 @@ p {
 }
 
 .jk-menu-item.active {
-	font-size: 150%;
+	font-weight: bold;
+	background-color: Green;
 }
 
 .jk-menu .active .jk-menu-link {
 	color: White;
-	font-family: 'Wingdings'
 }
 
 [href*='458'],[href*='459'] {
-	font-size: 150%;
 	font-weight: bold;
 	color: White;
 }
 
 li {
 	float: left;
+	min-width: 7em;
+	text-align: center;
 }
 
 .col-lg-4, .col-lg-8 {
@@ -54,10 +55,11 @@ li {
 }
 
 .jk-main {
-	margin-top: 1.5em;
+	margin-top: 1em;
 }
 
 .jk-menu-item {
 	margin: 0;
 }
 
+.jk-menu-item 
