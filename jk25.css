@@ -2,6 +2,12 @@ p {
 	
 }
 
+.jk-header-container {
+	padding-right: 0px;
+	padding-left: 0px;
+	max-wdith: 100%;
+}
+
 .jk-menu {
 margin-left: auto;
 	margin-right: auto;
