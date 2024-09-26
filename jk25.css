@@ -10,6 +10,7 @@ p {
 
 .jk-top {
 	border-radius: 0rem 0rem 3rem 3rem ;
+	background-image:url('https://domdak.github.io/jk25/Panorama.jpg');
 }
 
 .mt-3 {
@@ -20,8 +21,6 @@ p {
 	text-align: center;
 	width: 100%;
 	display: block;
-	content: '';
-	background-image:url('https://domdak.github.io/jk25/Panorama.jpg');
 }
 
 .jk-menu {
