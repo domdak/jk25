@@ -1,9 +1,3 @@
-@media screen and (max-width: 992px) {
-    .row { display: flex; flex-flow: column; }
-    .col-md-4 { order: 0; }
-	.col-md-8 { order: 1; }
-}
-
 p {
 	
 }
@@ -71,7 +65,12 @@ margin-left: auto;
 .col-lg-8.original {
 	flex: 0 0 66.666667%;
     max-width: 66.666667%;
+}
 
+@media screen and (max-width: 1200px) {
+    .row { display: flex; flex-flow: column; }
+    .col-lg-4.original { order: 0; }
+	.col-lg-8.original { order: 1; }
 }
 
 .jk-nav-col {
