@@ -1,5 +1,7 @@
-.col-md-4 {
-	order: 0;
+@media screen and (max-width: 992px) {
+    .row { display: flex; flex-flow: column; }
+    .col-md-4 { order: 0; }
+	.col-md-8 { order: 1; }
 }
 
 p {
