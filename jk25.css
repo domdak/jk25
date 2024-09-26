@@ -20,6 +20,8 @@ p {
 	text-align: center;
 	width: 100%;
 	display: block;
+	content: '';
+	background-image:url('https://domdak.github.io/jk25/Panorama.jpg');
 }
 
 .jk-menu {
