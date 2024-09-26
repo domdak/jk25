@@ -15,22 +15,31 @@ p {
 	max-height: 300px;
 }
 
+
 .jk-site-title {
     position: absolute;
     left: 2rem;
     bottom: .5rem;
     right: 2rem;
-	text-align: center;
-    font-weight: bold;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, .8);
+	text-align: center;	
 }
+
+.jk-title-location {
+	display: inline-flex;
+}
+
+.jk-title-dates {
+	display: inline-flex;
+}
+
 
 @media (min-width: 576px) {
     .jk-site-title1, .jk-site-title2, .jk-site-title3 {
         font-size: 1.5rem;
         line-height: 1.8rem;
-        float: left;
-        margin-right: 0.25rem;
+		display: inline-block;
+		margin-right: 0.1rem;
 	}
 }
 
@@ -40,6 +49,7 @@ p {
         line-height: 1.5rem;
     }
 }
+
 
 .mt-3 {
 	margin-top: 0rem !important;
