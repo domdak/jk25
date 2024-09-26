@@ -9,10 +9,7 @@ p {
 }
 
 .jk-top {
-	border-bottom-left-radius: 3rem;
-	border-bottom-right-radius: 3rem;
-	border-top-left-radius: 0rem;
-	border-top-right-radius: 0rem;
+	border-radius: 3rem 3rem 0rem 0rem;
 }
 
 .mt-3 {
