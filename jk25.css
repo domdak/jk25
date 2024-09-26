@@ -38,7 +38,7 @@ p {
 }
 
 .jk-title-location::after {
-	content: "   •   18th - 21st April 2025";
+	content: "    •    18th - 21st April 2025";
 }
 
 @media (min-width: 576px) {
