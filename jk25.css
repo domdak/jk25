@@ -45,8 +45,12 @@ margin-left: auto;
   	box-shadow: inset 0 -3em 0 0px #52afe6;
 }
 
-.jk-title-location {
-	color: #FF69B4;
+.jk-title-location, .jk-title-dates {
+	color: #52afe6;
+}
+
+.jk-sm-dates {
+	background-color: #fff200;
 }
 
 .jk-central::after {
