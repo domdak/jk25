@@ -17,6 +17,10 @@ p {
 	margin-top: 0rem !important;
 }
 
+.mt-4 {
+	margin-top: 0.5rem !important;
+}
+
 .jk-logo {
 	text-align: center;
 	width: 100%;
@@ -103,6 +107,7 @@ margin-left: auto;
 
 .jk-nav-col {
 	order: 0;
+	margin-bottom: 2rem;
 }
 
 .mb-4, .my-4 {
