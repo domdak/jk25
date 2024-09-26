@@ -25,12 +25,9 @@ p {
 	background-image:url('https://domdak.github.io/jk25/JK25_Circle.png');
 	background-size: contain;
 	background-repeat: no-repeat;
-	text-align: center;
 	width: 100%;
 	display: block;
-	text-align: center;
-	width: 100%;
-	display: block;
+	background-position: center;
 }
 
 @media screen and (max-width: 992px) {
