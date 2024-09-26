@@ -75,21 +75,25 @@ margin-left: auto;
 }
 
 .officials {
-	background-color: #fafafa;
 	padding: 1em 2.5em 0.1em 1em;
-    box-shadow: 2px 2px 2px 0 #ccc;
 	display: inline-block;
 	line-height: 1em;
 	margin-bottom: 2em;
 }
 
-.officials-blue {
+.officials.grey {
+	background-color: #fafafa;
+	box-shadow: 2px 2px 2px 0 #ccc;
+}
+
+.officials.blue {
 	background-color: #ecf8ff;
-	padding: 1em 2.5em 0.1em 1em;
     box-shadow: 2px 2px 2px 0 #4a95c0;
-	display: inline-block;
-	line-height: 1em;
-	margin-bottom: 2em;
+}
+
+.officials-yellow {
+	background-color: #fffdd9;
+    box-shadow: 2px 2px 2px 0 #dfd403;;
 }
 
 .map-name {
