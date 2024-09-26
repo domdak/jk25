@@ -91,9 +91,9 @@ margin-left: auto;
     box-shadow: 2px 2px 2px 0 #4a95c0;
 }
 
-.officials-yellow {
+.officials.yellow {
 	background-color: #fffdd9;
-    box-shadow: 2px 2px 2px 0 #dfd403;;
+    box-shadow: 2px 2px 2px 0 #d7cc03;;
 }
 
 .map-name {
