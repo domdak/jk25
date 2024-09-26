@@ -76,8 +76,17 @@ margin-left: auto;
 
 .officials {
 	background-color: #fafafa;
-	padding: 1em 5em 0.1em 1em;
+	padding: 1em 2.5em 0.1em 1em;
     box-shadow: 2px 2px 2px 0 #ccc;
 	display: inline-block;
 	line-height: 1em;
+	margin-bottom: 2em;
+}
+
+.map-name {
+	padding: 1em 1em 0em;
+}
+
+.row {
+	padding-bottom: 2em;
 }
