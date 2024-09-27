@@ -80,6 +80,13 @@ p {
 	
 }
 
+.col.pt-2 {
+    top: -2.5rem;
+    text-align: center;
+	flex: none;
+	color: yellowgreen;
+}
+
 .jk-menu {
 	display: flex;
     flex-wrap: wrap;
