@@ -74,6 +74,12 @@ p {
 	}
 }
 
+@media (max-width: 400px) {
+	.jk-top {
+	border-radius: 0rem 0rem 1.5rem 1.5rem ;
+	}
+}
+
 .mr-2 {
 	margin-right: 0 !important;
 }
