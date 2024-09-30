@@ -227,6 +227,7 @@ p {
 
 .col-lg-4.original {
 	flex: 0 0 33.333333%;
+	padding-top: 1.5em;
 }
 
 .col-lg-8.original {
@@ -285,8 +286,10 @@ p {
 	padding: 1em 1em 1em;
 }
 
-.center {
-	text-align: center;
+@media screen and (max-width: 992px) {
+	.center {
+		text-align: center;
+	}
 }
 
 .navbar-toggler-icon {
