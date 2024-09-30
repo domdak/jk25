@@ -171,6 +171,7 @@ p {
 	padding-top: 0.4rem;
   	transition: box-shadow .15s ease-in-out;
 	border-radius: 2em;
+	box-shadow: rgba(0, 0, 0, 0.15) 0.15em .15em 0.2em;
 }
 
 .jk-menu-link {
