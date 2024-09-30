@@ -5,6 +5,7 @@ p {
 .mb-1 > .row {
     width: 100%;
     flex-direction: row-reverse;
+	margin-left: 0px;
 }
 
 .jk-header-container {
