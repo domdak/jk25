@@ -51,7 +51,6 @@ p {
 	}
 }
 
-
 .mt-3 {
 	margin-top: 0rem !important;
 }
@@ -92,6 +91,7 @@ p {
 
 .jk-sm-dates {
 	background-color: transparent; 
+	padding: 0;
 }
 
 .jk-menu {
