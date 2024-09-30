@@ -358,3 +358,7 @@ p {
     color: #4a95c0;
 	text-shadow: #2d5b7578 0 0 2em;
 }
+
+.jk-table td {
+	min-width: 5em;
+}
