@@ -310,9 +310,8 @@ p {
 /* TABLE */
 
 .jk-table {
-    border-collapse: collapse;
-    margin: 25px 0;
-    font-size: 0.9em;
+    border-spacing: 0;
+    font-size: 0.8em;
     min-width: 400px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
@@ -324,11 +323,18 @@ p {
     text-align: left;
 }
 
-.jk-table thead tr td:first-child {
+.jk-table thead :first-child {
+	border-top-left-radius: 1em;
+   }
+.jk-table thead :last-child {
+	border-top-right-radius: 1em;
+   }
+
+.jk-table thead tr:first-child td:first-child {
 	border-top-left-radius: 1em;
 }
 
-.jk-table thead tr td:last-child {
+.jk-table thead tr:first-child td:last-child {
 	border-top-right-radius: 1em;
 }
 
