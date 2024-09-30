@@ -2,8 +2,9 @@ p {
 	
 }
 
-.row {
-	flex-direction: row-reverse;
+.mb-1 > .row {
+    width: 100%;
+    flex-direction: row-reverse;
 }
 
 .jk-header-container {
