@@ -42,20 +42,15 @@ p {
 	content: " • 18th - 21st April 2025";
 }
 
-@media (min-width: 576px) {
-    .jk-site-title1, .jk-site-title2, .jk-site-title3 {
-        font-size: 1.5rem;
-        line-height: 1.8rem;
-		display: inline-block;
+@media (max-width: 991px) {
+    .jk-site-title1 {
+        font-size: 3.8vw !important;
+	}
+	.col.pt-2 {
+		font-size: 3.0vw !important;
 	}
 }
 
-@media (min-width: 400px) {
-    .jk-site-title {
-        font-size: 1.3rem;
-        line-height: 1.5rem;
-    }
-}
 
 .mt-3 {
 	margin-top: 0rem !important;
