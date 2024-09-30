@@ -43,8 +43,9 @@ p {
 }
 
 @media (max-width: 991px) {
-    .jk-site-title1 {
+    .jk-site-title {
         font-size: 3.8vw !important;
+		top: 25vw !important;
 	}
 	.col.pt-2 {
 		font-size: 3.0vw !important;
