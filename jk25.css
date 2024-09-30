@@ -26,7 +26,7 @@ p {
 
 .d-flex {
 	justify-content: center;
-	top: -0.8em;
+	top: -2vw;
 }
 
 .col-auto {
@@ -291,4 +291,5 @@ p {
 
 .navbar-toggler {
     border: 1px solid rgba(82, 175, 230, .5);
+	font-size: 2.5vw;
 }
