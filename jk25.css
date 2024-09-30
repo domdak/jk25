@@ -312,30 +312,26 @@ p {
 .jk-table {
     border-spacing: 0;
     font-size: 0.8em;
-    min-width: 400px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    min-width: 50%;
+    margin-bottom: 1.3em;
+}
+.jk-table tr {
+    box-shadow: 0.3em 0.4em 4px rgba(0, 0, 0, 0.15);
 }
 
 .jk-table thead tr {
-    background-color: #52afe6;
 	font-weight: bold;
     color: #ffffff;
     text-align: left;
+	background-color: #52afe6;
 }
 
 .jk-table thead :first-child {
-	border-top-left-radius: 1em;
-   }
-.jk-table thead :last-child {
-	border-top-right-radius: 1em;
-   }
-
-.jk-table thead tr:first-child td:first-child {
-	border-top-left-radius: 1em;
+	border-top-left-radius: .8em;
 }
 
-.jk-table thead tr:first-child td:last-child {
-	border-top-right-radius: 1em;
+.jk-table thead :last-child {
+	border-top-right-radius: .8em;
 }
 
 .jk-table th,
@@ -350,6 +346,9 @@ p {
 .jk-table tbody tr:nth-of-type(even) {
     background-color: #f3f3f3;
 }
+.jk-table tbody tr:nth-of-type(odd) {
+    background-color: #fff;
+}
 
 .jk-table tbody tr:last-of-type {
     border-bottom: 2px solid #52afe6;
@@ -357,4 +356,5 @@ p {
 
 .jk-table tbody tr:hover {
     color: #4a95c0;
+	text-shadow: #2d5b7578 0 0 2em;
 }
