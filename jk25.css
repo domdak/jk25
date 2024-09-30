@@ -200,9 +200,10 @@ p {
 	height: 10.864283235vw;
 	width: 100%;
 	display: block;
-   background-image:url('https://domdak.github.io/jk25/Skyline.png');
-	  background-size: cover;
+	background-image:url('https://domdak.github.io/jk25/Skyline.png');
+	background-size: cover;
 	background-repeat: no-repeat;
+	padding-top: 2rem;
 }
 
 .jk-menu-item.active {
