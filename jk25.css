@@ -58,7 +58,8 @@ p {
 		border-radius: 0rem 0rem 2rem 2rem;
 	}
 	.jk-logo {
-		top: 0.5rem;
+		top: 1.5vw;
+		height: 22.5vw;
 	}
 }
 
