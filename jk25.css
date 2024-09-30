@@ -2,6 +2,11 @@ p {
 	
 }
 
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
 .jk-header-container {
 	padding-right: 0px;
 	padding-left: 0px;
