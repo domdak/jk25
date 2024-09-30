@@ -282,7 +282,11 @@ p {
 }
 
 .map-name {
-	padding: 1em 1em 0em;
+	padding: 1em 1em 1em;
+}
+
+.center {
+	text-align: center;
 }
 
 .navbar-toggler-icon {
