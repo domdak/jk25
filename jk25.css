@@ -103,6 +103,10 @@ p {
 	margin-top: 0rem !important;
 }
 
+.mt-4 {
+	margin-top: 0 !important;
+}
+
 @media (min-width: 992px) {
 	.mt-4 {
 		margin-top: 0.5rem !important;
