@@ -236,7 +236,12 @@ p {
 
 .jk-nav-col {
 	order: 0;
-	margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 992px) {
+	.jk-nav-col {
+		margin-bottom: 2rem;
+	}
 }
 
 .mb-4, .my-4 {
