@@ -313,20 +313,28 @@ p {
     border-collapse: collapse;
     margin: 25px 0;
     font-size: 0.9em;
-    font-family: sans-serif;
     min-width: 400px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
 .jk-table thead tr {
     background-color: #52afe6;
+	font-weight: bold;
     color: #ffffff;
     text-align: left;
 }
 
+.jk-table thead tr td:first-child {
+	border-top-left-radius: 1em;
+}
+
+.jk-table thead tr td:last-child {
+	border-top-right-radius: 1em;
+}
+
 .jk-table th,
 .jk-table td {
-    padding: 12px 15px;
+    padding: 0.25rem 0.5rem
 }
 
 .jk-table tbody tr {
@@ -342,6 +350,5 @@ p {
 }
 
 .jk-table tbody tr:hover {
-    font-weight: bold;
-    color: #52afe6;
+    color: #4a95c0;
 }
