@@ -19,6 +19,14 @@ p {
 	height: 35vw;
 }
 
+.d-flex {
+	justify-content: center;
+}
+
+.col-auto {
+	width: 100%;
+}
+
 @media (min-width: 992px) {
 	.jk-top {
 	max-height: 300px;
