@@ -24,6 +24,7 @@ p {
 
 .col-auto {
 	width: 100%;
+	margin-left: 15px;
 }
 
 @media (min-width: 992px) {
@@ -128,6 +129,7 @@ p {
 	text-shadow: 2px 2px 5px black;
 	font-weight: bold;
 	padding-top: 0 !important;
+	margin-left: 15px;
 }
 
 .d-inline-block.mr-2::after {
