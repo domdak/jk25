@@ -46,7 +46,7 @@ p {
 	content: " • 18th - 21st April 2025";
 }
 
-@media (max-width: 991px) {
+@media (max-width: 992px) {
     .jk-site-title1 {
         font-size: 3.8vw !important;
 		line-height: 0 !important;
@@ -60,10 +60,12 @@ p {
 	}
 	.jk-top {
 		border-radius: 0rem 0rem 2rem 2rem;
+		max-height: 350px;
 	}
 	.jk-logo {
 		top: 1.5vw;
 		height: 22.5vw !important;
+		max-height: 300px;
 	}
 }
 
