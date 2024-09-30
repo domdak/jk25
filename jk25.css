@@ -49,6 +49,13 @@ p {
 	.col.pt-2 {
 		font-size: 3.0vw !important;
 	}
+	.jk-top {
+		border-radius: 0rem 0rem 2rem 2rem;
+	}
+}
+
+.mr-2 {
+	margin-right: 0 !important;
 }
 
 .mt-3 {
@@ -83,6 +90,7 @@ p {
 	color: #fff200;
 	text-shadow: 2px 2px 5px black;
 	font-weight: bold;
+	padding-top: 0 !important;
 }
 
 .d-inline-block.mr-2::after {
