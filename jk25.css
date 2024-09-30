@@ -84,7 +84,13 @@ p {
     top: -2.5rem;
     text-align: center;
 	flex: none;
-	color: yellowgreen;
+	color: #fff200;
+	text-shadow: 2px 2px 5px black;
+	font-weight: bold;
+}
+
+.d-inline-block.mr-2::after {
+	content: " • 18th - 21st April 2025";
 }
 
 .jk-menu {
@@ -124,8 +130,8 @@ p {
 	color: #fff200;
 }
 
-.jk-sm-dates {
-	background-color: #fff200;
+.jk-sm-date {
+	content-visibility: hidden;
 }
 
 .jk-central::after {
