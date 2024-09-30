@@ -30,6 +30,11 @@ p {
 	width: 100%;
 }
 
+.jk-site-title1 {
+	font-size: 1.9rem;
+	line-height: 2.3rem;
+}
+
 .jk-site-title1::after {
 	content: " International Festival of Orienteering";
 }
@@ -87,7 +92,7 @@ p {
 	background-repeat: no-repeat;
 	width: 100%;
 	right: 0;
-	height: 205px;
+	height: 200px;
 	display: block;
 	background-position: center;
 }
