@@ -4,6 +4,7 @@ p {
 
 .row {
 	width: 100%;
+	padding-bottom: 0;
 }
 
 .jk-header-container {
@@ -20,6 +21,7 @@ p {
 
 .d-flex {
 	justify-content: center;
+	top: -1em;
 }
 
 .col-auto {
