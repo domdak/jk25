@@ -49,7 +49,7 @@ p {
 		top: 25vw !important;
 	}
 	.jk-site-title {
-		top: 7.5vw !important;
+		bottom: 7.5vw !important;
 	}
 	.col.pt-2 {
 		font-size: 3.0vw !important;
