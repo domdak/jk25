@@ -172,6 +172,7 @@ p {
   	transition: box-shadow .15s ease-in-out;
 	border-radius: 2em;
 	box-shadow: rgba(0, 0, 0, 0.15) 0.15em .15em 0.2em;
+	font-weight: 500;
 }
 
 .jk-menu-link {
