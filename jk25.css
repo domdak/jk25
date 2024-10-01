@@ -21,6 +21,7 @@ p {
 	border-radius: 0rem 0rem 3rem 3rem ;
 	background-image:url('https://domdak.github.io/jk25/Panorama.jpg');
 	height: 35vw;
+	min-height: 150px;
 }
 
 .d-flex {
