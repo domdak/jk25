@@ -19,10 +19,20 @@ p {
 
 .jk-top {
 	border-radius: 0rem 0rem 3rem 3rem ;
-	background-image:url('https://domdak.github.io/jk25/Panorama.jpg');
 	height: 35vw;
 	min-height: 150px;
 	box-shadow: rgba(0, 0, 0, 0.25) 0.25em .25em 0.2em;
+}
+
+@media screen and (min-width: 992px) {
+	.jk-top {
+		background-image:url('https://domdak.github.io/jk25/Panorama-lg.png');
+	}
+}
+@media screen and (max-width: 992px) {
+	.jk-top {
+		background-image:url('https://domdak.github.io/jk25/Panorama-sm.png');
+	}
 }
 
 .d-flex {
