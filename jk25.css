@@ -308,9 +308,11 @@ p {
 }
 
 .navbar-toggler {
-    border: 1.5px solid rgba(82, 175, 230, .5);
+    border: 2px solid rgba(82, 175, 230, .5);
 	padding: 0.25rem 1rem;
 	border-radius: 5rem;
+	outline: none !important;
+	box-shadow: rgba(0, 0, 0, 0.15) 0.15em .15em 0.2em;
 }
 
 /* TABLE */
