@@ -8,7 +8,7 @@
 	background-repeat: no-repeat;
 }
 
-ul li:nth-child(1) .jk-menu-link:hover::before {
+ul li:nth-child(1) .jk-menu-link::before {
 	background-image:url('https://domdak.github.io/jk25/icons/home-white.svg');
 }
 ul li:nth-child(2) .jk-menu-link::before {
