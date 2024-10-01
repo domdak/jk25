@@ -361,3 +361,17 @@ p {
 .jk-table td {
 	min-width: 5em;
 }
+
+
+*/ ICONS */
+
+[href*='458']::before {
+	content: '';
+	width: 1.5em;
+	height: 1.5em;
+	float: left;
+	margin-right: 0.5em;
+	background-image:url('https://domdak.github.io/jk25/pets_white.svg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
