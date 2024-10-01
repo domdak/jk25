@@ -213,10 +213,10 @@ p {
 	color: Black !important;
 }
 
+/*
 [href*='458'],[href*='459'] {
-	font-weight: bold;
-	color: White;
 }
+*/
 
 .col-lg-4, .col-lg-8 {
 	flex: 0 0 100%;
