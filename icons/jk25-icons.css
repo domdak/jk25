@@ -1,19 +1,29 @@
 */ ICONS */
 
-.jk-menu-link::before {
-	content: '';
-	width: 1.5em;
-	height: 1.5em;
-	float: left;
-	margin-right: 0.5em;
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-
 ul li:nth-child(1) .jk-menu-link::before {
+	content: ''; width: 1.5em; height: 1.5em;
+	float: left; margin-right: 0.5em; 
+	background-size: contain; background-repeat: no-repeat;
 	background-image:url('https://domdak.github.io/jk25/icons/home-white.svg');
 }
 
+ul li:nth-child(2) .jk-menu-link::before {
+	content: ''; width: 1.5em; height: 1.5em;
+	float: left; margin-right: 0.5em; 
+	background-size: contain; background-repeat: no-repeat;
+	background-image:url('https://domdak.github.io/jk25/icons/one-white.svg');
+}
+
+ul li:nth-child(3) .jk-menu-link::before {
+	content: ''; width: 1.5em; height: 1.5em;
+	float: left; margin-right: 0.5em; 
+	background-size: contain; background-repeat: no-repeat;
+	background-image:url('https://domdak.github.io/jk25/icons/two-white.svg');
+}
+
 ul li:nth-child(4) .jk-menu-link::before {
+	content: ''; width: 1.5em; height: 1.5em;
+	float: left; margin-right: 0.5em; 
+	background-size: contain; background-repeat: no-repeat;
 	background-image:url('https://domdak.github.io/jk25/icons/pets-white.svg');
 }
