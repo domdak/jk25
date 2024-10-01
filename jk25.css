@@ -97,8 +97,10 @@ p {
 	.jk-top {
 	border-radius: 0rem 0rem 1.5rem 1.5rem ;
 	}
+}
+@media screen and (max-width: 425px) {
 	.jk-logo {
-		height: calc(130px - 10vw) !important;
+		height: calc(140px - 10vw) !important;
 	}
 }
 
