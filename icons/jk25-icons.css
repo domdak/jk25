@@ -93,42 +93,42 @@ ul li:nth-child(13) .jk-menu-link:hover::before, ul li:nth-child(13).active .jk-
 
 
 
-jk-outer::before {
+.jk-outer::before {
 	content: url('https://domdak.github.io/jk25/icons/home-black.svg');
 	position: absolute;
 	top: -9999rem;
 	left: -9999rem;
 	opacity: 0;
 }
-jk-header::before {
+.jk-header::before {
 	content: url('https://domdak.github.io/jk25/icons/enter-black.svg');
 	position: absolute;
 	top: -9999rem;
 	left: -9999rem;
 	opacity: 0;
 }
-jk-top::before {
+.jk-top::before {
 	content: url('https://domdak.github.io/jk25/icons/sprint-black.svg');
 	position: absolute;
 	top: -9999rem;
 	left: -9999rem;
 	opacity: 0;
 }
-jk-central::before {
+.jk-central::before {
 	content: url('https://domdak.github.io/jk25/icons/middle-black.svg');
 	position: absolute;
 	top: -9999rem;
 	left: -9999rem;
 	opacity: 0;
 }
-container::before {
+.container::before {
 	content: url('https://domdak.github.io/jk25/icons/long-black.svg');
 	position: absolute;
 	top: -9999rem;
 	left: -9999rem;
 	opacity: 0;
 }
-jk-central-container::before {
+.jk-central-container::before {
 	content: url('https://domdak.github.io/jk25/icons/relay-black.svg');
 	position: absolute;
 	top: -9999rem;
