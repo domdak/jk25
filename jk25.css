@@ -208,10 +208,25 @@ p {
 	height: 10.864283235vw;
 	width: 100%;
 	display: block;
-	background-image:url('https://domdak.github.io/jk25/Skyline.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding-top: 2rem;
+}
+
+@media screen and (min-width: 992px) {
+	.jk-central::after {
+		background-image:url('https://domdak.github.io/jk25/footer/skyline-lg-light.png');
+	}
+}
+@media screen and (max-width: 992px) {
+	.jk-central::after {
+		background-image:url('https://domdak.github.io/jk25/footer/skyline-md-dark.png');
+	}
+}
+@media screen and (max-width: 576px) {
+	.jk-central::after {
+		background-image:url('https://domdak.github.io/jk25/footer/skyline-sm-light.png');
+	}
 }
 
 .jk-menu-item.active {
