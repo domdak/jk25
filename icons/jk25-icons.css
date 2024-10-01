@@ -12,7 +12,7 @@ ul li:nth-child(1) .jk-menu-link::before {
 	background-image:url('https://domdak.github.io/jk25/icons/home-white.svg');
 }
 ul li:nth-child(2) .jk-menu-link::before {
-	background-image:url('https://domdak.github.io/jk25/icons/entries-white.svg');
+	background-image:url('https://domdak.github.io/jk25/icons/enter-white.svg');
 }
 ul li:nth-child(3) .jk-menu-link::before {
 	background-image:url('https://domdak.github.io/jk25/icons/sprint-white.svg');
@@ -46,7 +46,7 @@ ul li:nth-child(1) .jk-menu-link:hover::before, ul li:nth-child(1).active .jk-me
 	background-image:url('https://domdak.github.io/jk25/icons/home-black.svg');
 }
 ul li:nth-child(2) .jk-menu-link:hover::before, ul li:nth-child(2).active .jk-menu-link::before {
-	background-image:url('https://domdak.github.io/jk25/icons/entries-black.svg');
+	background-image:url('https://domdak.github.io/jk25/icons/enter-black.svg');
 }
 ul li:nth-child(3) .jk-menu-link:hover::before, ul li:nth-child(3).active .jk-menu-link::before {
 	background-image:url('https://domdak.github.io/jk25/icons/sprint-black.svg');
