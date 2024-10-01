@@ -26,12 +26,12 @@ p {
 
 @media screen and (min-width: 992px) {
 	.jk-top {
-		background-image:url('https://domdak.github.io/jk25/Panorama-lg.png');
+		background-image:url('https://domdak.github.io/jk25/Panorama-lg.jpg');
 	}
 }
 @media screen and (max-width: 992px) {
 	.jk-top {
-		background-image:url('https://domdak.github.io/jk25/Panorama-sm.png');
+		background-image:url('https://domdak.github.io/jk25/Panorama-sm.jpg');
 	}
 }
 
