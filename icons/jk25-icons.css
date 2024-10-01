@@ -41,6 +41,12 @@ ul li:nth-child(10) .jk-menu-link::before {
 ul li:nth-child(11) .jk-menu-link::before {
 	background-image:url('https://domdak.github.io/jk25/icons/results-white.svg');
 }
+ul li:nth-child(12) .jk-menu-link::before {
+	background-image:url('https://domdak.github.io/jk25/icons/wre-white.svg');
+}
+ul li:nth-child(13) .jk-menu-link::before {
+	background-image:url('https://domdak.github.io/jk25/icons/attractions-white.svg');
+}
 
 ul li:nth-child(1) .jk-menu-link:hover::before, ul li:nth-child(1).active .jk-menu-link::before {
 	background-image:url('https://domdak.github.io/jk25/icons/home-black.svg');
@@ -74,4 +80,10 @@ ul li:nth-child(10) .jk-menu-link:hover::before, ul li:nth-child(10).active .jk-
 }
 ul li:nth-child(11) .jk-menu-link:hover::before, ul li:nth-child(11).active .jk-menu-link::before {
 	background-image:url('https://domdak.github.io/jk25/icons/results-black.svg');
+}
+ul li:nth-child(12) .jk-menu-link:hover::before, ul li:nth-child(12).active .jk-menu-link::before {
+	background-image:url('https://domdak.github.io/jk25/icons/wre-black.svg');
+}
+ul li:nth-child(13) .jk-menu-link:hover::before, ul li:nth-child(13).active .jk-menu-link::before {
+	background-image:url('https://domdak.github.io/jk25/icons/attractions-black.svg');
 }
