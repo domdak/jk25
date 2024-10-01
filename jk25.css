@@ -218,7 +218,7 @@ p {
 		height: 23.5772358vw;
 	}
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1200px) {
 	.jk-central::after {
 		background-image:url('https://domdak.github.io/jk25/footer/skyline-lg-dark.png');
 		height: 27.943686vw;
