@@ -33,7 +33,7 @@ p {
 	margin-left: 15px;
 }
 
-@media (min-width: 992px) {
+@media screen and (min-width: 992px) {
 	.jk-top {
 	max-height: 300px;
 	}
@@ -70,7 +70,7 @@ p {
 	content: " • 18th - 21st April 2025";
 }
 
-@media (max-width: 992px) {
+@media screen and (max-width: 992px) {
     .jk-site-title1 {
         font-size: 3.8vw !important;
 		line-height: 0 !important;
@@ -93,7 +93,7 @@ p {
 	}
 }
 
-@media (max-width: 400px) {
+@media screen and (max-width: 400px) {
 	.jk-top {
 	border-radius: 0rem 0rem 1.5rem 1.5rem ;
 	height: calc(130px - 10vw) !important;
@@ -112,7 +112,7 @@ p {
 	margin-top: 0 !important;
 }
 
-@media (min-width: 992px) {
+@media screen and (min-width: 992px) {
 	.mt-4 {
 		margin-top: 0.5rem !important;
 	}
