@@ -370,7 +370,10 @@ body {
 	box-shadow: rgba(0, 0, 0, 0.15) 0.15em .15em 0.2em;
 }
 
-/* TABLE */
+/* TABLES
+Options: .jk-table (blue)
+.jk-table-yellow (yellow)
+.jk-table-no-border (nothing at all)   */
 
 .jk-table {
     border-spacing: 0;
@@ -443,4 +446,10 @@ body {
 .jk-table-yellow tbody tr:hover {
     color: black;
 	text-shadow: #2d5b7578 0 0 2em;
+}
+
+.jk-table-no-border {
+	border: 0;
+    border-color: transparent;
+	background: transparent;
 }
