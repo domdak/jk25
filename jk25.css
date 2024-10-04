@@ -220,6 +220,8 @@ body {
 
 .jk-title-location, .jk-title-dates {
 	color: #fff200;
+	font-size: 1.2em;
+    font-weight: normal;
 }
 
 .jk-sm-date {
