@@ -224,6 +224,12 @@ body {
     font-weight: normal;
 }
 
+@media (min-width: 992px) {
+    .jk-site-title {
+        line-height: 1.7rem;
+	}
+}
+
 .jk-sm-date {
 	content-visibility: hidden;
 }
