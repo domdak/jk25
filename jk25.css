@@ -96,7 +96,7 @@ body {
 	content: " ⬥ 18th - 21st April 2025";
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991.5px) {
     .jk-site-title1 {
         font-size: 3.8vw !important;
 		line-height: 0 !important;
