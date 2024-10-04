@@ -93,7 +93,7 @@ body {
 }
 
 .jk-title-location::after {
-	content: " • 18th - 21st April 2025";
+	content: " ⬥ 18th - 21st April 2025";
 }
 
 @media screen and (max-width: 992px) {
