@@ -431,3 +431,16 @@ body {
 .jk-table td {
 	min-width: 5em;
 }
+
+.jk-table-yellow  thead tr {
+    color: black;
+	background-color: #fff200;
+}
+.jk-table-yellow tbody tr:last-of-type {
+    border-bottom: 2px solid #fff200;
+}
+
+.jk-table-yellow tbody tr:hover {
+    color: black;
+	text-shadow: #2d5b7578 0 0 2em;
+}
