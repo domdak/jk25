@@ -188,6 +188,7 @@ body {
 	display: flex;
     flex-wrap: wrap;
     justify-content: center;
+	margin-bottom: 0.5rem;
 }
 
 .jk-menu-item {
