@@ -43,7 +43,7 @@ body {
 		background-image:url('https://domdak.github.io/jk25/Panorama-lg.jpg');
 	}
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
 	.jk-top {
 		background-image:url('https://domdak.github.io/jk25/Panorama-sm.jpg');
 	}
@@ -96,7 +96,7 @@ body {
 	content: " ⬥ 18th - 21st April 2025";
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
     .jk-site-title1 {
         font-size: 3.8vw !important;
 		line-height: 0 !important;
@@ -116,6 +116,7 @@ body {
 		top: 1.5vw;
 		height: 22.5vw !important;
 		max-height: 300px;
+		max-height: 100%;	
 	}
 }
 
@@ -154,14 +155,9 @@ body {
 	background-repeat: no-repeat;
 	width: 100%;
 	right: 0;
-	height: 200px;
+	height: 195px;
 	display: block;
 	background-position: center;
-}
-
-@media screen and (max-width: 992px) {
-	.jk-logo {max-height: 100%;}
-	
 }
 
 .col.pt-2 {
