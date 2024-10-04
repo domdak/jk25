@@ -3,7 +3,10 @@
 .jk-site-title, .jk-sm-dates, h1, h2, h3, h4, h5, h6 {
 	font-family: "Patua One", serif;
 }
-.col.pt-2, h3 {
+h1 {
+	font-size: 2.5rem;
+}
+.col.pt-2, h3, h4, h5, h6 {
 	font-weight: 400;
 }
 .jk-menu-link {
@@ -11,10 +14,6 @@
 }
 body {
 	font-family: "Open Sans", sans-serif;
-}
-
-p {
-	
 }
 
 .mb-1 > .row {
@@ -381,7 +380,8 @@ p {
 }
 
 .jk-table thead tr {
-	font-weight: bold;
+	font-weight: normal;
+	font-family: "Patua One", serif;
     color: #ffffff;
     text-align: left;
 	background-color: #52afe6;
