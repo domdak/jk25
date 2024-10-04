@@ -7,7 +7,7 @@ h1 {
 	font-size: 2.5rem;
 }
 .col.pt-2, h3, h4, h5, h6 {
-	font-weight: 400;
+	font-weight: 400 ;
 }
 .jk-menu-link {
 	font-weight: 600;
@@ -170,14 +170,13 @@ body {
 	flex: none;
 	color: #fff200;
 	text-shadow: 2px 2px 5px black;
-	font-weight: bold;
 	padding-top: 0 !important;
 	margin-left: 15px;
 	height: 1em;
 }
 
 .d-inline-block.mr-2::after {
-	content: " • 18th - 21st April 2025";
+	content: " ⬥ 18th - 21st April 2025";
 }
 
 .jk-sm-dates {
