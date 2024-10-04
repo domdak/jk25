@@ -385,6 +385,10 @@ body {
 .jk-table tr {
     box-shadow: 0.3em 0.4em 4px rgba(0, 0, 0, 0.15);
 }
+.jk-table th {
+	font-weight: normal;
+    line-height: 1.7em;
+}
 
 .jk-table thead tr {
 	font-weight: normal;
