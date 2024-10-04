@@ -453,3 +453,6 @@ Options: .jk-table (blue)
     border-color: transparent;
 	background: transparent;
 }
+.jk-table-no-border th, .jk-table-no-border td {
+    padding: 0.25rem 0.5rem;
+}
