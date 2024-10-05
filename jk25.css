@@ -197,7 +197,7 @@ body {
 	margin-right: .35em !important;
 	margin-bottom: .7em !important;
 	padding-top: 0.4rem;
-  	transition: box-shadow 0.3s ease-in-out;
+  	transition: box-shadow 0.2s ease-in-out;
 	border-radius: 2em;
 	box-shadow: rgba(0, 0, 0, 0.15) 0.15em .15em 0.2em;
 	font-weight: 400 !important;
