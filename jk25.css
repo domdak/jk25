@@ -203,6 +203,12 @@ body {
 	font-weight: 400 !important;
 }
 
+a {
+	color: #52afe6;
+}
+a:hover {
+	color: #d7cc03;
+}
 
 .jk-menu-link {
 	color: white !important;
@@ -340,7 +346,7 @@ body {
 
 .officials.yellow {
 	background-color: #fffdd9;
-    box-shadow: 2px 2px 2px 0 #d7cc03;;
+    box-shadow: 2px 2px 2px 0 #d7cc03;
 }
 
 .map-name {
