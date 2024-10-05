@@ -199,7 +199,7 @@ body {
 	padding-top: 0.4rem;
   	transition: box-shadow 1s ease-in-out;
 	border-radius: 2em;
-	box-shadow: rgba(0, 0, 0, 0.15) 0.15em .15em 0.2em;
+	/*box-shadow: rgba(0, 0, 0, 0.15) 0.15em .15em 0.2em;*/
 	font-weight: 400 !important;
 }
 
@@ -209,7 +209,8 @@ body {
 }
 
 .jk-menu-item:hover {
-  	box-shadow: inset 0 -3em 0 0px #fff200, rgba(0, 0, 0, 0.15) 0.15em .15em 0.2em;
+  	box-shadow: inset 0 -3em 0 0px #fff200;
+	/*, rgba(0, 0, 0, 0.15) 0.15em .15em 0.2em;*/
 }
 
 .jk-menu-link:hover {
