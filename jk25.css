@@ -359,6 +359,16 @@ a:hover {
 }
 
 
+hr {
+	margin-top: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+iframe {
+	border-radius: 1em;
+	box-shadow: 2px 2px 2px 0 #ccc;
+}
+
 .quoteBox::before {
 	content: '“';
 	float: left;
@@ -369,11 +379,6 @@ a:hover {
 	padding-right: 0.2em;
 	bottom: -0.3em;
 	color: #4a95c0;
-}
-
-hr {
-	margin-top: 2.5rem;
-    margin-bottom: 2rem;
 }
 
 .quoteBox {
