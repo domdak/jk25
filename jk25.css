@@ -42,10 +42,16 @@ body {
 	.jk-top {
 		background-image:url('https://domdak.github.io/jk25/Panorama-lg.jpg');
 	}
+	h4.mobileHead {
+		content-visibility: hidden;
+	}
 }
 @media screen and (max-width: 992px) {
 	.jk-top {
 		background-image:url('https://domdak.github.io/jk25/Panorama-sm.jpg');
+	}
+	h4.desktopHead {
+		content-visibility: hidden;
 	}
 }
 
