@@ -46,6 +46,9 @@ body {
 		content-visibility: hidden;
 		margin: 0;
 	}
+	div.desktopHead {
+		margin-top: 0.5rem
+	}
 }
 @media screen and (max-width: 992px) {
 	.jk-top {
