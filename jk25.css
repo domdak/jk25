@@ -42,7 +42,7 @@ body {
 	.jk-top {
 		background-image:url('https://domdak.github.io/jk25/Panorama-lg.jpg');
 	}
-	h4.mobileHead {
+	div.mobileHead {
 		content-visibility: hidden;
 		margin: 0;
 	}
@@ -51,7 +51,7 @@ body {
 	.jk-top {
 		background-image:url('https://domdak.github.io/jk25/Panorama-sm.jpg');
 	}
-	h4.desktopHead {
+	div.desktopHead {
 		content-visibility: hidden;
 		margin: 0;
 	}
