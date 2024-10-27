@@ -75,6 +75,9 @@ body {
 	.jk-top:hover::after {
 		font-size: 0.7em;
 	}
+	.quoteBox {
+		margin-top: 0.5em;
+	}
 }
 
 .d-flex {
