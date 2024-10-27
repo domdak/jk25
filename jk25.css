@@ -58,6 +58,9 @@ body {
 		content-visibility: hidden;
 		margin: 0;
 	}
+	.map-name {
+		padding-bottom: 2em;
+	}
 }
 
 .d-flex {
