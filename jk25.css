@@ -333,7 +333,7 @@ a:hover {
 }
 
 @media screen and (max-width: 992px) {
-    .row.original.flip { display: flex; flex-flow: column; }
+    .row.original { display: flex; flex-flow: column; }
     .col-lg-4.original.flip { order: 0; }
 	.col-lg-8.original.flip { order: 1; }
 	.officials {width:100%}
