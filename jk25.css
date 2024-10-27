@@ -356,11 +356,52 @@ a:hover {
 	margin-top: 1em;
 }
 
+
+.quoteBox::before {
+	content: '“';
+	float: left;
+	font-size: 4em;
+	font-family: "Patua One";
+	line-height: 0.1em;
+	position: relative;
+	padding-right: 0.2em;
+	bottom: -0.3em;
+	color: #4a95c0;
+}
+
+.quoteBox {
+	text-align: justify;
+	padding: 1em 1em 0.1em 1em;
+	display: inline-block;
+	margin-bottom: 2em;
+	background-color: #ecf8ff;
+    box-shadow: 2px 2px 2px 0 #4a95c0;
+	border-radius: 0.5em;
+}
+
+.quoteBox h5 {
+	line-height:0.5em;
+	color: #4a95c0;
+}
+
+.quoteBox::after {
+	content: '”';
+	float: right;
+	font-size: 4em;
+	font-family: "Patua One";
+	line-height: 0.1em;
+	position: relative;
+	bottom: 0.53em;
+	left: 0em;
+	color: #4a95c0;
+}
+
 .officials {
 	padding: 1em 2.5em 0.1em 1em;
 	display: inline-block;
 	line-height: 1em;
 	margin-bottom: 2em;
+	border-radius: 0.5em;
 }
 
 .officials.grey {
