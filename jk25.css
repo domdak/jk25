@@ -359,7 +359,7 @@ a:hover {
 }
 
 hr {
-	margin-top: 2.5rem;
+	margin-top: 1.5rem;
     margin-bottom: 2rem;
 }
 
@@ -393,6 +393,7 @@ iframe.map {
 	background-color: #ecf8ff;
     box-shadow: 2px 2px 2px 0 #4a95c0;
 	border-radius: 1em;
+	margin-bottom: 1rem;
 }
 
 .quoteBox h5 {
