@@ -364,9 +364,15 @@ hr {
     margin-bottom: 2rem;
 }
 
-iframe {
+iframe.map {
 	border-radius: 1em;
 	box-shadow: 2px 2px 2px 0 #ccc;
+}
+
+@media screen and (max-width: 992px) {
+	div.introPara {
+		text-align: center;
+	}
 }
 
 .quoteBox::before {
