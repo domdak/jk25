@@ -82,7 +82,8 @@ body {
 		margin-top: 0.5em;
 	}
 	.map-name {
-		padding: 1em 2em 2em;
+		padding-right: 2em !important;
+		padding-left: 2em !important;
 	}
 }
 
