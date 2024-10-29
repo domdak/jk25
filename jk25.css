@@ -381,43 +381,50 @@ iframe.map {
 	}
 }
 
-.quoteBox::before {
-	content: '“';
-	float: left;
+.quoteBox::before, .quoteBox::after {
 	font-size: 4em;
 	font-family: "Patua One";
 	line-height: 0.1em;
 	position: relative;
+}
+
+.quoteBox.blue::before, .quoteBox.blue::after {
+	color: #4a95c0;
+}
+.quoteBox.yellow::before, .quoteBox.yellow::after {
+	color: #d7cc03;
+}
+
+.quoteBox::before {
+	content: '“';
+	float: left;
 	padding-right: 0.2em;
 	bottom: -0.3em;
-	color: #4a95c0;
 }
 
 .quoteBox {
 	text-align: justify;
 	padding: 1em 1em 0.1em 1em;
 	display: inline-block;
-	background-color: #ecf8ff;
-    box-shadow: 2px 2px 2px 0 #4a95c0;
 	border-radius: 1em;
 	margin-bottom: 1rem;
 }
 
 .quoteBox h5 {
 	line-height:0.5em;
+}
+.quoteBox.blue h5 {
 	color: #4a95c0;
+}
+.quoteBox.yellow h5 {
+	color: #d7cc03;
 }
 
 .quoteBox::after {
 	content: '”';
 	float: right;
-	font-size: 4em;
-	font-family: "Patua One";
-	line-height: 0.1em;
-	position: relative;
 	bottom: 0.53em;
 	left: 0em;
-	color: #4a95c0;
 }
 
 .officials {
@@ -428,17 +435,17 @@ iframe.map {
 	border-radius: 1em;
 }
 
-.officials.grey {
+.officials.grey, .quoteBox.grey {
 	background-color: #fafafa;
 	box-shadow: 2px 2px 2px 0 #ccc;
 }
 
-.officials.blue {
+.officials.blue, .quoteBox.blue {
 	background-color: #ecf8ff;
     box-shadow: 2px 2px 2px 0 #4a95c0;
 }
 
-.officials.yellow {
+.officials.yellow, .quoteBox.yellow {
 	background-color: #fffdd9;
     box-shadow: 2px 2px 2px 0 #d7cc03;
 }
