@@ -81,6 +81,9 @@ body {
 	.quoteBox {
 		margin-top: 0.5em;
 	}
+	.map-name {
+		padding: 1em 2em 2em;
+	}
 }
 
 .d-flex {
