@@ -342,7 +342,7 @@ a:hover {
     .row.original { display: flex; flex-flow: column; }
     .col-lg-4.original.flip { order: 0; }
 	.col-lg-8.original.flip { order: 1; }
-	.officials {width:100%}
+	.officials {min-width:50%}
 }
 
 .jk-nav-col {
@@ -420,7 +420,7 @@ iframe.map {
 }
 
 .officials {
-	padding: 1em 2.5em 0.1em 1em;
+	padding: 1em 1.5em 0.1em 1em;
 	display: inline-block;
 	line-height: 1.25em;
 	margin-bottom: 2em;
