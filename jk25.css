@@ -589,3 +589,13 @@ Options: .jk-table (blue)
 .jk-table-no-border th, .jk-table-no-border td {
     padding: 0.25rem 0.5rem;
 }
+
+.entryTable th div {
+	background-color: #4A95C0;
+	box-shadow: rgba(0, 0, 0, 0.15) 0.15em .15em 0.2em;
+	border-radius: 0.5em;
+	padding: 5px 15px;
+	font-family: Patua One;
+	font-size: 1.5em;
+	color: white;
+}
