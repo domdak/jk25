@@ -455,15 +455,18 @@ iframe.map {
 	text-align: center;
 }
 
+div.infoPageHeader {
+	text-align: center;
+	padding-bottom: 2rem;
+}
+
 @media screen and (min-width: 992px) {
 	.map-name {
 		padding-top: 0;
 	}
 	div.infoPageHeader {
-		text-align: center;
-		padding-bottom: 2rem;
-		padding-left: 5em;
-		padding-right: 5em;
+		padding-left: 15vw;
+		padding-right: 15vw;
 	}
 }
 
