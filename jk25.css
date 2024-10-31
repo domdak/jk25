@@ -591,6 +591,7 @@ Options: .jk-table (blue)
 }
 
 
+
 .entryTable {
 	text-align: center;
 }
@@ -605,14 +606,21 @@ Options: .jk-table (blue)
 	color: white;
 }
 
+.entryTable tr:nth-child(even) td {
+	padding-bottom: 1em;
+	font-size: 0.9em;
+}
+
 .entryTable tr:nth-child(2) td {
 	font-family: "Patua One";
 	color: #4A95C0;
-	padding-bottom: 1em;
+	padding-bottom: 1.5em;
+	font-size: 1em;
 }
 
 .entryTable tr:nth-child(odd) td {
 	font-family: "Patua One";
 	font-size: 0.9em;
-	color: #555444;
+	color: #666666;
+	line-height: 0.2em;
 }
