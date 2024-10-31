@@ -605,6 +605,8 @@ Options: .jk-table (blue)
 	font-size: 1.5em;
 	color: white;
 	margin-top: 0.3em;
+	margin-right: 0.5em;
+	margin-left: 0.5em;
 }
 
 .entryTable tr:nth-child(even) td {
