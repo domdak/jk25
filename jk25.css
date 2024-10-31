@@ -597,7 +597,7 @@ Options: .jk-table (blue)
 
 .entryTable th div {
 	background-color: #4A95C0;
-	box-shadow: rgba(0, 0, 0, 0.15) 0.15em .15em 0.2em;
+	box-shadow: rgba(0, 0, 0, 0.25) 0.15em .15em 0.2em;
 	border-radius: 0.5em;
 	padding: 5px 15px;
 	font-family: Patua One;
@@ -605,8 +605,14 @@ Options: .jk-table (blue)
 	color: white;
 }
 
-.entryTable tr:nth-child(2) {
+.entryTable tr:nth-child(2) td {
 	font-family: "Patua One";
 	color: #4A95C0;
 	padding-bottom: 1em;
+}
+
+.entryTable tr:nth-child(odd) td {
+	font-family: "Patua One";
+	font-size: 0.9em;
+	color: #555444;
 }
