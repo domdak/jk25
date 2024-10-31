@@ -460,6 +460,11 @@ div.infoPageHeader {
 	padding-bottom: 2rem;
 }
 
+div.infoPageHeader h1 {
+	padding-bottom: 0.2rem;
+}
+
+
 @media screen and (min-width: 992px) {
 	.map-name {
 		padding-top: 0;
