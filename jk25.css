@@ -608,4 +608,5 @@ Options: .jk-table (blue)
 .entryTable tr:nth-child(2) {
 	font-family: "Patua One";
 	color: #4A95C0;
+	padding-bottom: 1em;
 }
