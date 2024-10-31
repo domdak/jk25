@@ -625,7 +625,8 @@ Options: .jk-table (blue)
 	font-family: "Patua One";
 	font-size: 0.9em;
 	color: #666666;
-	line-height: 0.2em;
+	line-height: 1em;
+	padding-bottom: 0;
 }
 
 .entryTable td:nth-child(1), .entryTable th:nth-child(1) {
