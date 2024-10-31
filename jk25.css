@@ -595,6 +595,10 @@ Options: .jk-table (blue)
 .entryTable {
 	text-align: center;
 }
+.entryTable td {
+	min-width: 10rem;
+}
+
 
 .entryTable th div {
 	background-color: #4A95C0;
