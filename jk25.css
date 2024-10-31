@@ -590,6 +590,11 @@ Options: .jk-table (blue)
     padding: 0.25rem 0.5rem;
 }
 
+
+.entryTable {
+	text-align: center;
+}
+
 .entryTable th div {
 	background-color: #4A95C0;
 	box-shadow: rgba(0, 0, 0, 0.15) 0.15em .15em 0.2em;
@@ -598,4 +603,9 @@ Options: .jk-table (blue)
 	font-family: Patua One;
 	font-size: 1.5em;
 	color: white;
+}
+
+.entryTable tr:nth-child(2) {
+	font-family: "Patua One";
+	color: #4A95C0;
 }
