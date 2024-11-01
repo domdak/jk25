@@ -279,13 +279,22 @@ a:hover {
 }
 
 .entryButton-link::after {
+	content: '';
+	width: 1.5em;
+	height: 1.5em;
+	float: right;
+	margin-left: 0.5em; 
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.entryButton-link::after {
 	background-image:url('https://domdak.github.io/jk25/icons/middle-white.svg')
 }
 
 .entryButton-link:hover::after {
 	background-image:url('https://domdak.github.io/jk25/icons/sprint-white.svg')
 }
-
 
 .jk-title-location, .jk-title-dates {
 	color: #fff200;
