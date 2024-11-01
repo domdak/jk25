@@ -298,6 +298,12 @@ a:hover {
 	background-image:url('https://domdak.github.io/jk25/icons/sprint-white.svg')
 }
 
+
+.entryButton:hover {
+	box-shadow: rgba(0, 0, 0, 0.15) 0.15em .15em 0.2em, inset 0 -3em 0 0px #fff200;
+}
+
+
 .jk-title-location, .jk-title-dates {
 	color: #fff200;
 	font-size: 1.2em;
