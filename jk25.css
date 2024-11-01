@@ -290,6 +290,10 @@ a:hover {
 	background-repeat: no-repeat;
 }
 
+.entryButton-link:hover {
+	text-decoration: none;
+}
+
 .entryButton-link::after {
 	background-image:url('https://domdak.github.io/jk25/icons/middle-white.svg')
 }
