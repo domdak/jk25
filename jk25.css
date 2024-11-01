@@ -244,7 +244,6 @@ body {
 	margin-right: .35em !important;
 	margin-bottom: .7em !important;
   	transition: box-shadow 0.2s ease-in-out;
-	box-shadow: rgba(0, 0, 0, 0.15) 0.15em .15em 0.2em;
 	font-weight: 400 !important;
 }
 
@@ -252,6 +251,7 @@ body {
 	min-width: 7em;
 	padding-top: 0.4rem;
 	border-radius: 2em;
+	box-shadow: rgba(0, 0, 0, 0.15) 0.15em .15em 0.2em;
 }
 
 a {
@@ -278,6 +278,7 @@ a:hover {
 	font-size: 2rem;
 	padding: 0.2em 0.7em 0.3em 1em;
 	border-radius: 2em;
+	box-shadow: rgba(0, 0, 0, 0.25) 0.15em .15em 0.2em;
 }
 
 .entryButton-link::after {
@@ -304,7 +305,7 @@ a:hover {
 
 
 .entryButton:hover {
-	box-shadow: rgba(0, 0, 0, 0.15) 0.15em .15em 0.2em, inset 16em 0em 0 0px #4a95c0;
+	box-shadow: rgba(0, 0, 0, 0.25) 0.15em .15em 0.2em, inset 16em 0em 0 0px #fff200;
 }
 
 
