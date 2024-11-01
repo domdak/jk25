@@ -261,7 +261,7 @@ a:hover {
 	color: #d7cc03;
 }
 
-.jk-menu-link {
+.jk-menu-link, .entryButton-link {
 	color: white !important;
 }
 
@@ -273,18 +273,18 @@ a:hover {
 	color: black !important;
 }
 
-
 .entryButton {
-
-
-	background-image:url('https://domdak.github.io/jk25/icons/sprint-white.svg')
-	background-image:url('https://domdak.github.io/jk25/icons/middle-white.svg')
-
-
+	font-family: "Patua One", serif;
+	font-size: 1.5rem;
 }
 
+.entryButton-link::after {
+	background-image:url('https://domdak.github.io/jk25/icons/middle-white.svg')
+}
 
-
+.entryButton-link:hover::after {
+	background-image:url('https://domdak.github.io/jk25/icons/sprint-white.svg')
+}
 
 
 .jk-title-location, .jk-title-dates {
