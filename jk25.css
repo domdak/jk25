@@ -266,13 +266,12 @@ a:hover {
 }
 
 .jk-menu-item:hover {
-  	box-shadow: rgba(0, 0, 0, 0.15) 0.15em .15em 0.2em, inset 0 -3em 0 0px #4A95C0;
+  	box-shadow: rgba(0, 0, 0, 0.15) 0.15em .15em 0.2em, inset 0 -3em 0 0px #fff200;
 }
 
 .jk-menu-link:hover {
 	color: black !important;
 }
-
 
 .entryButton {
 	font-family: "Patua One", serif;
@@ -305,7 +304,7 @@ a:hover {
 
 
 .entryButton:hover {
-	box-shadow: rgba(0, 0, 0, 0.15) 0.15em .15em 0.2em, inset 16em 0em 0 0px #fff200;
+	box-shadow: rgba(0, 0, 0, 0.15) 0.15em .15em 0.2em, inset 16em 0em 0 0px #4a95c0;
 }
 
 
