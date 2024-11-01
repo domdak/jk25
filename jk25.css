@@ -235,20 +235,24 @@ body {
 	margin-bottom: 0.5rem;
 }
 
-.jk-menu-item {
+.jk-menu-item, .entryButton {
 	background-color: #52afe6;
 	float: left;
-	min-width: 7em;
 	text-align: center;
 	margin: 0;
 	margin-left: .35em !important;
 	margin-right: .35em !important;
 	margin-bottom: .7em !important;
-	padding-top: 0.4rem;
   	transition: box-shadow 0.2s ease-in-out;
-	border-radius: 2em;
 	box-shadow: rgba(0, 0, 0, 0.15) 0.15em .15em 0.2em;
 	font-weight: 400 !important;
+}
+
+
+.jk-menu-item {
+	min-width: 7em;
+	padding-top: 0.4rem;
+	border-radius: 2em;
 }
 
 a {
@@ -269,6 +273,20 @@ a:hover {
 .jk-menu-link:hover {
 	color: black !important;
 }
+
+
+.entryButton {
+
+
+	background-image:url('https://domdak.github.io/jk25/icons/sprint-white.svg')
+	background-image:url('https://domdak.github.io/jk25/icons/middle-white.svg')
+
+
+}
+
+
+
+
 
 .jk-title-location, .jk-title-dates {
 	color: #fff200;
