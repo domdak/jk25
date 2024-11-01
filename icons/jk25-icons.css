@@ -51,6 +51,9 @@ ul li:nth-child(13) .jk-menu-link::before {
 ul li:nth-child(14) .jk-menu-link::before {
 	background-image:url('https://domdak.github.io/jk25/icons/info-white.svg');
 }
+ul li:nth-child(15) .jk-menu-link::before {
+	background-image:url('https://domdak.github.io/jk25/icons/contact-white.svg');
+}
 /*
 ul li:nth-child(11) .jk-menu-link::before {
 	background-image:url('https://domdak.github.io/jk25/icons/results-white.svg');
@@ -99,6 +102,9 @@ ul li:nth-child(13) .jk-menu-link:hover::before, ul li:nth-child(13).active .jk-
 }
 ul li:nth-child(14) .jk-menu-link:hover::before, ul li:nth-child(14).active .jk-menu-link::before {
 	background-image:url('https://domdak.github.io/jk25/icons/info-black.svg');
+}
+ul li:nth-child(15) .jk-menu-link:hover::before, ul li:nth-child(15).active .jk-menu-link::before {
+	background-image:url('https://domdak.github.io/jk25/icons/contact-black.svg');
 }
 /*
 ul li:nth-child(11) .jk-menu-link:hover::before, ul li:nth-child(11).active .jk-menu-link::before {
@@ -207,6 +213,13 @@ ul li:nth-child(11) .jk-menu-link:hover::before, ul li:nth-child(11).active .jk-
 }
 .jk-footer-container::after {
 	content: url('https://domdak.github.io/jk25/icons/merch-black.svg');
+	position: absolute;
+	top: -9999rem;
+	left: -9999rem;
+	opacity: 0;
+}
+.d-lg-none::after {
+	content: url('https://domdak.github.io/jk25/icons/contact-black.svg');
 	position: absolute;
 	top: -9999rem;
 	left: -9999rem;
