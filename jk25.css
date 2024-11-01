@@ -437,25 +437,28 @@ iframe.map {
 	left: 0em;
 }
 
-.officials {
+.officials, .highlight {
 	padding: 1em 1.5em 0.1em 1em;
 	display: inline-block;
-	line-height: 1.25em;
-	margin-bottom: 2em;
 	border-radius: 1em;
 }
 
-.officials.grey, .quoteBox.grey {
+.officials {
+	line-height: 1.25em;
+	margin-bottom: 2em;
+}
+
+.officials.grey, .quoteBox.grey, .highlight.grey {
 	background-color: #fafafa;
 	box-shadow: 2px 2px 2px 0 #ccc;
 }
 
-.officials.blue, .quoteBox.blue {
+.officials.blue, .quoteBox.blue, .highlight.blue {
 	background-color: #ecf8ff;
     box-shadow: 2px 2px 2px 0 #4a95c0;
 }
 
-.officials.yellow, .quoteBox.yellow {
+.officials.yellow, .quoteBox.yellow, .highlight.yellow {
 	background-color: #fffdd9;
     box-shadow: 2px 2px 2px 0 #d7cc03;
 }
