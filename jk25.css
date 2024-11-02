@@ -243,7 +243,6 @@ body {
 	margin-left: .35em !important;
 	margin-right: .35em !important;
 	margin-bottom: .7em !important;
-  	transition: box-shadow 0.2s ease-in-out;
 	font-weight: 400 !important;
 }
 
@@ -252,6 +251,7 @@ body {
 	padding-top: 0.4rem;
 	border-radius: 2em;
 	box-shadow: rgba(0, 0, 0, 0.15) 0.15em .15em 0.2em;
+	transition: box-shadow 0.2s ease-in-out;
 }
 
 a {
@@ -279,6 +279,7 @@ a:hover {
 	padding: 0.2em 0.7em 0.3em 1em;
 	border-radius: 2em;
 	box-shadow: rgba(0, 0, 0, 0.25) 0.15em .15em 0.2em;
+	transition: box-shadow 0.2s linear;
 }
 
 .entryButton-link {
