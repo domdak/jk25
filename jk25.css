@@ -267,6 +267,10 @@ body {
     height: 100%;
 }
 
+.centerButtons h4 {
+	padding-bottom: 0.4rem;
+}
+
 .jk-menu-item {
 	min-width: 7em;
 	padding: 0 !important;
