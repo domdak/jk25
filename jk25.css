@@ -300,9 +300,10 @@ a:hover {
 	float: right;
 	background-size: contain;
 	background-repeat: no-repeat;
+	margin-left: 0.4em;
 }
-.sm .entryButton-link::after {
-	margin-right: 0.2em;
+.sm.entryButton-link::after {
+	margin-right: 0.6rem;
 }
 
 .entryButton-link:hover {
@@ -315,12 +316,14 @@ a:hover {
 .entryButton-link.runner:hover::after {
 	background-image:url('https://domdak.github.io/jk25/icons/sprint-black.svg')
 }
+
 .entryButton-link.edit::after {
 	background-image:url('https://domdak.github.io/jk25/icons/enter-white.svg')
 }
 .entryButton-link.edit:hover::after {
 	background-image:url('https://domdak.github.io/jk25/icons/enter-black.svg')
 }
+
 .entryButton-link.list::after {
 	background-image:url('https://domdak.github.io/jk25/icons/enter-white.svg')
 }
