@@ -253,17 +253,6 @@ body {
 	box-shadow: rgba(0, 0, 0, 0.15) 0.15em .15em 0.2em;
 }
 
-@media screen and (min-width: 992px) {
-	.jk-menu-item {
-		transition: box-shadow 0.2s ease-in-out;
-	}
-	.entryButton {
-		transition: box-shadow 0.3s linear;
-		font-size: 2rem;
-	}
-
-}
-
 a {
 	color: #52afe6;
 }
@@ -316,6 +305,17 @@ a:hover {
 .entryButton:hover {
 	box-shadow: rgba(0, 0, 0, 0.25) 0.15em .15em 0.2em, inset 16em 0em 0 0px #fff200;
 }
+
+@media screen and (min-width: 992px) {
+	.jk-menu-item {
+		transition: box-shadow 0.2s ease-in-out;
+	}
+	.entryButton {
+		transition: box-shadow 0.3s linear;
+		font-size: 2rem;
+	}
+}
+
 
 
 .jk-title-location, .jk-title-dates {
