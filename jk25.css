@@ -708,6 +708,9 @@ Options: .jk-table (blue)
 .entryTable {
 	text-align: center;
 	width: 100%;
+}
+
+.entryTableBox {
 	margin-bottom: 3rem;
 }
 
