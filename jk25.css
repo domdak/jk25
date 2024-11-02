@@ -11,6 +11,7 @@ h3 {
 }
 .jk-menu-link {
 	font-weight: 600;
+	padding: 0.4rem 1rem 0.5rem 1rem;
 }
 body {
 	font-family: "Open Sans", sans-serif;
