@@ -251,7 +251,15 @@ body {
 	padding-top: 0.4rem;
 	border-radius: 2em;
 	box-shadow: rgba(0, 0, 0, 0.15) 0.15em .15em 0.2em;
-	transition: box-shadow 0.2s ease-in-out;
+}
+
+@media screen and (min-width: 992px) {
+	.jk-menu-item {
+		transition: box-shadow 0.2s ease-in-out;
+	}
+	.entryButton {
+		transition: box-shadow 0.3s linear;
+	}
 }
 
 a {
@@ -279,7 +287,6 @@ a:hover {
 	padding: 0.2em 0.7em 0.3em 1em;
 	border-radius: 2em;
 	box-shadow: rgba(0, 0, 0, 0.25) 0.15em .15em 0.2em;
-	transition: box-shadow 0.2s linear;
 }
 
 .entryButton-link {
