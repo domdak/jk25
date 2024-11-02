@@ -689,7 +689,9 @@ Options: .jk-table (blue)
 	text-align: center;
 	width: 100%;
 	table-layout: fixed;
+	margin-bottom: 2rem;
 }
+
 .entryTable td {
 	min-width: 10rem;
 }
