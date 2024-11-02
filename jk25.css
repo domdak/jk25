@@ -243,7 +243,11 @@ body {
 	margin-left: .35em !important;
 	margin-right: .35em !important;
 	margin-bottom: .7em !important;
-	font-weight: 400 !important;
+}
+
+.entryButton.sm {
+	background-color: #4a95c0;
+	font-size: 1.2rem;
 }
 
 .jk-menu-item {
@@ -251,6 +255,7 @@ body {
 	padding-top: 0.4rem;
 	border-radius: 2em;
 	box-shadow: rgba(0, 0, 0, 0.15) 0.15em .15em 0.2em;
+	font-weight: 400 !important;
 }
 
 a {
