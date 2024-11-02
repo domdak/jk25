@@ -318,17 +318,17 @@ a:hover {
 }
 
 .entryButton-link.edit::after {
-	background-image:url('https://domdak.github.io/jk25/icons/enter-white.svg')
+	background-image:url('https://domdak.github.io/jk25/icons/edit-white.svg')
 }
 .entryButton-link.edit:hover::after {
-	background-image:url('https://domdak.github.io/jk25/icons/enter-black.svg')
+	background-image:url('https://domdak.github.io/jk25/icons/edit-black.svg')
 }
 
 .entryButton-link.list::after {
-	background-image:url('https://domdak.github.io/jk25/icons/enter-white.svg')
+	background-image:url('https://domdak.github.io/jk25/icons/list-white.svg')
 }
 .entryButton-link.list:hover::after {
-	background-image:url('https://domdak.github.io/jk25/icons/enter-black.svg')
+	background-image:url('https://domdak.github.io/jk25/icons/list-black.svg')
 }
 
 
