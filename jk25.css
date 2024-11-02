@@ -680,6 +680,7 @@ Options: .jk-table (blue)
 
 .entryTable {
 	text-align: center;
+	width: 100%;
 }
 .entryTable td {
 	min-width: 10rem;
