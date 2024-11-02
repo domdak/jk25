@@ -259,7 +259,7 @@ body {
 
 .jk-menu-item {
 	min-width: 7em;
-	padding-top: 0.4rem;
+	padding: 0 !important;
 	border-radius: 2em;
 	box-shadow: rgba(0, 0, 0, 0.15) 0.15em .15em 0.2em;
 	font-weight: 400 !important;
