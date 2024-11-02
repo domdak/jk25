@@ -581,6 +581,9 @@ div.infoPageHeader h1 {
 		padding-left: 12.5vw;
 		padding-right: 12.5vw;
 	}
+	.entryTable {
+		table-layout: fixed;
+	}
 }
 
 @media screen and (max-width: 992px) {
@@ -691,7 +694,6 @@ Options: .jk-table (blue)
 .entryTable {
 	text-align: center;
 	width: 100%;
-	table-layout: fixed;
 	margin-bottom: 2rem;
 }
 
