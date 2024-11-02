@@ -100,7 +100,7 @@ body {
 	}
 }
 
-.justified {
+.justified, .justfiedRightCol {
 	text-align: justify;
 }
 
