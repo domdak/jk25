@@ -3,6 +3,9 @@
 .jk-site-title, .jk-sm-dates, h1, h2, h3, h4, h5, h6 {
 	font-family: "Patua One", serif;
 }
+h2 {
+	font-weight: normal;
+}
 h3 {
 	padding-top: 0.5rem;
 }
