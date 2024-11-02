@@ -73,6 +73,9 @@ body {
 	.justified {
 		padding-right: 2rem;
 	}
+	.infoCol {
+		padding-left: 2rem;
+	}
 }
 @media screen and (max-width: 992px) {
 	.jk-top {
