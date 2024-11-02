@@ -604,6 +604,10 @@ div.infoPageHeader h1 {
 	box-shadow: rgba(0, 0, 0, 0.15) 0.15em .15em 0.2em;
 }
 
+ul {
+	list-style-type: "⬥  " 
+}
+
 /* TABLES
 Options: .jk-table (blue)
 .jk-table yellow (as above, but yellow)
@@ -615,7 +619,7 @@ Options: .jk-table (blue)
     min-width: 50%;
     margin-bottom: 1.3em;
 	width: 99%;
-	text-align:left;
+	text-align: left;
 }
 .jk-table tr {
     box-shadow: 0.3em 0.4em 4px rgba(0, 0, 0, 0.15);
