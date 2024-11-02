@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-
 .jk-site-title, .jk-sm-dates, h1, h2, h3, h4, h5, h6 {
 	font-family: "Patua One", serif;
 }
@@ -10,11 +9,12 @@ h2 {
 h3 {
 	padding-top: 0.5rem;
 }
-.col.pt-2, h3, h4, h5, h6, .news_item h4 {
+.col.pt-2, h3, h4, h5, h6 {
 	font-weight: 400 ;
 }
 .news_item h4 {
-	font-size: 1.4rem;
+	font-size: 1.4rem !important;
+	font-weight: normal !important;
 }
 .new_date {
 	font-size: 0.8rem;
