@@ -259,7 +259,9 @@ body {
 	}
 	.entryButton {
 		transition: box-shadow 0.3s linear;
+		font-size: 2rem;
 	}
+
 }
 
 a {
@@ -283,7 +285,7 @@ a:hover {
 
 .entryButton {
 	font-family: "Patua One", serif;
-	font-size: 2rem;
+	font-size: 1.7rem;
 	padding: 0.2em 0.7em 0.25em 1em;
 	border-radius: 2em;
 	box-shadow: rgba(0, 0, 0, 0.25) 0.15em .15em 0.2em;
