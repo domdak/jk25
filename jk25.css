@@ -25,6 +25,10 @@ body {
 	font-family: "Open Sans", sans-serif;
 }
 
+div .noULPad ul {
+	padding-bottom: 0;
+}
+
 .mb-1 > .row {
     width: 100%;
     flex-direction: row-reverse;
