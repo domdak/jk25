@@ -605,7 +605,7 @@ div.infoPageHeader h1 {
 }
 
 ul {
-	list-style-type: "⬥  ";
+	list-style-type: "⬥   ";
 }
 li::marker {
   color: #4A95C0;
