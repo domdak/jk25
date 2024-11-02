@@ -242,13 +242,12 @@ body {
 	margin: 0;
 	margin-left: .35em !important;
 	margin-right: .35em !important;
-	margin-bottom: .7em !important;
 }
 
 .entryButton.sm {
 	background-color: #4a95c0;
 	font-size: 1.2rem;
-	width: 12rem;
+	width: 11rem;
 }
 
 .centerButtons {
@@ -263,6 +262,7 @@ body {
 	border-radius: 2em;
 	box-shadow: rgba(0, 0, 0, 0.15) 0.15em .15em 0.2em;
 	font-weight: 400 !important;
+	margin-bottom: .7em !important;
 }
 
 a {
@@ -290,6 +290,7 @@ a:hover {
 	padding: 0.2em 0.7em 0.25em 1em;
 	border-radius: 2em;
 	box-shadow: rgba(0, 0, 0, 0.25) 0.15em .15em 0.2em;
+	margin-bottom: .5em;
 }
 
 .entryButton-link.runner::after {
@@ -327,7 +328,7 @@ a:hover {
 		font-size: 2rem;
 	}
 	.entryButton.sm {
-		width: 14rem;
+		width: 12.5rem;
 	}
 }
 
