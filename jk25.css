@@ -9,8 +9,15 @@ h2 {
 h3 {
 	padding-top: 0.5rem;
 }
-.col.pt-2, h3, h4, h5, h6 {
+.col.pt-2, h3, h4, h5, h6, .news_item h4 {
 	font-weight: 400 ;
+}
+.news_item h4 {
+	font-size: 1.4rem;
+}
+.new_date {
+	font-size: 0.8rem;
+	color: #4a95c0;
 }
 .jk-menu-link {
 	font-weight: 600;
