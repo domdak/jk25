@@ -255,6 +255,7 @@ body {
 	display: flex;
     align-items: center;
     flex-direction: column;
+	padding-bottom: 2rem;
 }
 
 .jk-menu-item {
@@ -554,6 +555,11 @@ iframe.map {
 div.infoPageHeader {
 	text-align: center;
 	padding-bottom: 2rem;
+}
+
+.infoPageMidHea {
+	text-align: center;
+	padding-bottom: 1rem;
 }
 
 div.infoPageHeader h1 {
