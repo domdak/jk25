@@ -17,8 +17,8 @@ h3 {
 	font-weight: normal !important;
 }
 .new_date {
-	font-size: 0.8rem;
-	color: #4a95c0;
+	font-size: 0.8rem !important;
+	color: #4a95c0 !important;
 }
 .jk-menu-link {
 	font-weight: 600;
