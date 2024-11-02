@@ -294,11 +294,11 @@ a:hover {
 	text-decoration: none;
 }
 
-.entryButton-link::after {
+.entryButton-link.runner::after {
 	background-image:url('https://domdak.github.io/jk25/icons/middle-white.svg')
 }
 
-.entryButton-link:hover::after {
+.entryButton-link.runner:hover::after {
 	background-image:url('https://domdak.github.io/jk25/icons/sprint-black.svg')
 }
 
