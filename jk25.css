@@ -251,6 +251,12 @@ body {
 	width: 12rem;
 }
 
+.centerButtons {
+	display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 .jk-menu-item {
 	min-width: 7em;
 	padding-top: 0.4rem;
