@@ -284,7 +284,7 @@ a:hover {
 .entryButton {
 	font-family: "Patua One", serif;
 	font-size: 2rem;
-	padding: 0.2em 0.7em 0.3em 1em;
+	padding: 0.2em 0.7em 0.25em 1em;
 	border-radius: 2em;
 	box-shadow: rgba(0, 0, 0, 0.25) 0.15em .15em 0.2em;
 }
