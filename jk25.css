@@ -601,6 +601,9 @@ div.infoPageHeader h1 {
 	.entryTable {
 		table-layout: fixed;
 	}
+	.square-img {
+		float: right;
+	}
 }
 
 @media screen and (max-width: 992px) {
