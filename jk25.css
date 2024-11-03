@@ -284,12 +284,8 @@ div .noULPad ul {
 	padding-bottom: 0.4rem;
 }
 
-.merch img {
-	width: 100%;
-}
-
 .merch {
-	padding: 1.5rem;
+	padding: 1.5rem !important;
 }
 
 .jk-menu-item {
