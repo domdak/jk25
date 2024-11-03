@@ -299,6 +299,10 @@ div .noULPad ul {
     max-width: 25rem;
 }
 
+.merch img {
+	width: 100%;
+}
+
 .merch h3 {
 	text-align: center;
 	padding-top: 0 !important;
