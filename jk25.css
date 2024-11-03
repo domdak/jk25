@@ -365,7 +365,7 @@ a:hover {
 	}
 	.entryButton {
 		transition: box-shadow 0.3s linear;
-		font-size: 2rem;
+		font-size: 1.9rem;
 	}
 	.entryButton.sm {
 		width: 12.5rem;
