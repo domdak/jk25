@@ -607,6 +607,13 @@ div.infoPageHeader h1 {
 	.center {
 		text-align: center;
 	}
+	.square-img {
+		width: 60%;
+	}
+	.square-img-box {
+		margin-left: 20%;
+		margin-right: 20%;
+	}
 }
 
 .navbar-toggler-icon {
@@ -715,7 +722,6 @@ Options: .jk-table (blue)
 .jk-table-no-border th, .jk-table-no-border td {
     padding: 0.25rem 0.5rem;
 }
-
 
 .entryTable {
 	text-align: center;
