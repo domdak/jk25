@@ -302,7 +302,7 @@ div .noULPad ul {
 	transition: transform .2s;
 }
 
-.merch:hover {
+.merch:hover, map-name:hover {
 	transform: scale(1.1);
 }
 
@@ -619,6 +619,7 @@ iframe.map {
 .map-name {
 	padding: 1em 1em 2em;
 	text-align: center;
+	transition: transform .2s;
 }
 
 div.infoPageHeader {
