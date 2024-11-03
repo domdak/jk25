@@ -294,8 +294,11 @@ div .noULPad ul {
 
 .merch {
 	padding: 1.5rem !important;
+}
+
+.merch-box .row {
 	width: 100%;
-    max-width: 25rem;
+	max-width: 25rem;
 }
 
 .merch img {
