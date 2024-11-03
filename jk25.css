@@ -284,6 +284,13 @@ div .noULPad ul {
 	padding-bottom: 0.4rem;
 }
 
+.merch-box {
+	display: flex;
+    align-items: center;
+    flex-direction: column;
+	justify-content: center;
+}
+
 .merch {
 	padding: 1.5rem !important;
 	width: 100%;
