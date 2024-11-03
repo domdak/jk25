@@ -312,6 +312,13 @@ div .noULPad ul {
 	font-size: 1.6rem;
 }
 
+.entryButton-link.shop::after {
+	background-image:url('https://domdak.github.io/jk25/icons/shop-white.svg')
+}
+.entryButton-link.shop:hover::after {
+	background-image:url('https://domdak.github.io/jk25/icons/shop-black.svg')
+}
+
 .jk-menu-item {
 	min-width: 7em;
 	padding: 0 !important;
