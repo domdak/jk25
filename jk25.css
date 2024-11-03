@@ -113,6 +113,11 @@ div .noULPad ul {
 	text-align: justify;
 }
 
+.justified h1, .justified h2, .justified h3, .justified h4, .justified h5 {
+	text-align: left;
+}
+
+
 .d-flex {
 	justify-content: center;
 }
