@@ -251,3 +251,10 @@ ul li:nth-child(11) .jk-menu-link:hover::before, ul li:nth-child(11).active .jk-
 	left: -9999rem;
 	opacity: 0;
 }
+.jk-nav-col::after {
+	content: url('https://domdak.github.io/jk25/icons/shop-black.svg');
+	position: absolute;
+	top: -9999rem;
+	left: -9999rem;
+	opacity: 0;
+}
