@@ -302,7 +302,7 @@ div .noULPad ul {
 	transition: transform .2s;
 }
 
-.merch:hover, map-name:hover {
+.merch:hover, .map-name:hover {
 	transform: scale(1.1);
 }
 
