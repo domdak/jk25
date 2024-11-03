@@ -288,6 +288,13 @@ div .noULPad ul {
 	padding: 1.5rem !important;
 }
 
+.merch h3 {
+	text-align: center;
+	padding-top: 0 !important;
+	padding-bottom: 0.75rem;
+	font-size: 1.6rem;
+}
+
 .jk-menu-item {
 	min-width: 7em;
 	padding: 0 !important;
