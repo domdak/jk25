@@ -611,11 +611,11 @@ div.infoPageHeader h1 {
 		text-align: center;
 	}
 	.square-img {
-		width: 60%;
+		width: 100%;
 	}
 	.square-img-box {
-		margin-left: 20%;
-		margin-right: 20%;
+		padding-left: 25vw;
+		padding-right: 25vw;
 	}
 }
 
