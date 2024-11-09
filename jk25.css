@@ -700,9 +700,12 @@ Options: .jk-table (blue)
     font-size: 0.8em;
     min-width: 50%;
     margin-bottom: 1.3em;
-	width: 99%;
 	text-align: left;
 }
+.jk-table.full-width {
+	width: 99%;
+}
+
 .jk-table tr {
     box-shadow: 0.3em 0.4em 4px rgba(0, 0, 0, 0.15);
 }
