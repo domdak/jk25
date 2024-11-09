@@ -297,6 +297,9 @@ div .noULPad ul {
 		width: 100%;
 		max-width: 25rem;
 	}
+	div.fillerDesktop {
+		content-visibility: hidden;
+	}
 }
 
 .merch, .featuredBox {
