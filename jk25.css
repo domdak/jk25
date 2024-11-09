@@ -316,11 +316,13 @@ div .noULPad ul {
 	text-align: center;
 	animation-name: appear;
 	animation-duration: 1.5s;
+	transform: translate(0,6.5rem);
 }
 
 .appearText h1 {
 	line-height: 0;
 	margin: 0;
+	font-size: 3.5rem;
 }
 
 @keyframes appear {
