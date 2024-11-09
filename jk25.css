@@ -312,6 +312,18 @@ div .noULPad ul {
 	transform: scale(1.1);
 }
 
+.appearText {
+	text-align: center;
+	animation-name: appear;
+	animation-delay: 1.5s;
+	animation-duration: 0.5s;
+}
+
+@keyframes appear {
+	from {content-visibility: hidden}
+	to {content-visibility: visible}
+}
+
 .home-map img {
 	animation-duration: .5s;
 	animation-delay: 1s;
