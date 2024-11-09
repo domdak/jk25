@@ -658,6 +658,10 @@ div.infoPageHeader h1 {
 	.map-name {
 		padding-top: 0;
 	}
+	.home-map img {
+		width: 50%;
+		max-width: 30rem;
+	}
 	div.infoPageHeader {
 		padding-left: 12.5vw;
 		padding-right: 12.5vw;
