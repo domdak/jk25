@@ -312,6 +312,20 @@ div .noULPad ul {
 	transform: scale(1.1);
 }
 
+.home-map img {
+	animation-name: welcome;
+	animation-duration: .5s;
+	animation-delay: 1s;
+	animation-fill-mode: forwards;
+}
+  
+img.home1 {
+	transform: translatex(-10rem)
+}
+img.home2 {
+	transform: translatex(10rem)
+}
+
 .merch img, .featuredBox img {
 	width: 100%;
 }
