@@ -313,17 +313,25 @@ div .noULPad ul {
 }
 
 .home-map img {
-	animation-name: welcome;
 	animation-duration: .5s;
 	animation-delay: 1s;
 	animation-fill-mode: forwards;
 }
-  
+
 img.home1 {
-	transform: translatex(-10rem)
+	animation-name: welcome1;
 }
 img.home2 {
-	transform: translatex(10rem)
+	animation-name: welcome2;
+}
+
+@keyframes welcome1 {
+	from {}
+	to {transform: translatex(-10rem)}
+}
+@keyframes welcome2 {
+	from {}
+	to {transform: translatex(10rem)}
 }
 
 .merch img, .featuredBox img {
