@@ -313,10 +313,13 @@ div .noULPad ul {
 	width: 100%;
 }
 
-.merch h3 {
+.merch h3, .featuredBox h3 {
 	text-align: center;
 	padding-top: 0 !important;
 	padding-bottom: 0.75rem;
+}
+
+.merch h3 {
 	font-size: 1.6rem;
 }
 
