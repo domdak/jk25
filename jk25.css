@@ -308,7 +308,7 @@ div .noULPad ul {
 	transition: transform .2s;
 }
 
-.merch:hover, .featuredBox:hover, .map-name:hover, .home-map:hover, .appearText h1:hover {
+.merch:hover, .featuredBox:hover, .map-name:hover, .front-map:hover {
 	transform: scale(1.1);
 }
 
