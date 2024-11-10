@@ -302,8 +302,9 @@ div .noULPad ul {
 	}
 }
 
-.rainbow h1:hover {
+.rainbow h1 a {
 	animation: colorchange 5s infinite alternate;
+	pointer-events: none;
 }
 
 @keyframes colorchange {
