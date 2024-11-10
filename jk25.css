@@ -308,22 +308,22 @@ div .noULPad ul {
 
 @keyframes colorchange {
 	0% {
-	  color: #4A95C0;
+	  color: black;
 	}
 	14% {
-	  color: red;
+	  color: #4A95C0;
 	}
 	28% {
-	  color: orange;
+	  color: turquoise;
 	}
 	42% {
 	  color: green;
 	}
 	56% {
-	  color: turquoise;
+	  color: orange;
 	}
 	70% {
-	  color: blue;
+	  color: teal;
 	}
 	84% {
 	  color: blueviolet;
