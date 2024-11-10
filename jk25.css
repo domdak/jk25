@@ -345,6 +345,10 @@ div .noULPad ul {
 	transition: transform .2s;
 }
 
+.featuredBox, .front-map {
+	transition: transform .2s;
+}
+
 .appearText {
 	text-align: center;
 	animation-name: appear;
