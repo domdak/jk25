@@ -302,19 +302,19 @@ div .noULPad ul {
 	}
 }
 
-.rainbow h1 {
+.rainbow h1:hover {
 	animation: colorchange 10s infinite alternate;
 }
 
 @keyframes colorchange {
 	0% {
-	  color: red;
+	  color: black;
 	}
 	14% {
-	  color: orange;
+	  color: red;
 	}
 	28% {
-	  color: yellow;
+	  color: orange;
 	}
 	42% {
 	  color: green;
