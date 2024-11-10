@@ -301,43 +301,35 @@ div .noULPad ul {
 		content-visibility: hidden;
 	}
 }
-.rainbow {
-	-webkit-animation: colorchange 10s infinite alternate;
+
+.rainbow h1 {
+	animation: colorchange 10s infinite alternate;
 }
 
-@-webkit-keyframes colorchange {
+@keyframes colorchange {
 	0% {
-	  color: blue;
+	  color: red;
 	}
-	10% {
-	  color: #8e44ad;
+	14% {
+	  color: orange;
 	}
-	20% {
-	  color: #1abc9c;
+	28% {
+	  color: yellow;
 	}
-	30% {
-	  color: #d35400;
+	42% {
+	  color: green;
 	}
-	40% {
-	  color: blue;
-	}
-	50% {
-	  color: #34495e;
-	}
-	60% {
-	  color: blue;
+	56% {
+	  color: turquoise;
 	}
 	70% {
-	  color: #2980b9;
+	  color: blue;
 	}
-	80% {
-	  color: #f1c40f;
-	}
-	90% {
-	  color: #2980b9;
+	84% {
+	  color: blueviolet;
 	}
 	100% {
-	  color: pink;
+	  color: violet;
 	}
   }
 
