@@ -81,6 +81,7 @@ div .noULPad ul {
 
 .padBelow {
 	padding-bottom: 0.75rem;
+	height: 0px;
 }
 
 .homeGrid h4 {
