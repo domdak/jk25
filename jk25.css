@@ -149,6 +149,9 @@ div .noULPad ul {
 	h1 {
 		font-size: 3rem;
 	}
+	.justified.fullWidth {
+		padding-right: 0rem !important;
+	}
 	.justified {
 		padding-right: 2rem;
 	}
