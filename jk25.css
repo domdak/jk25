@@ -169,8 +169,11 @@ div .noULPad ul {
 }
 @media screen and (max-width: 992px) {
 	.homeGrid {
-		min-height: 8em;
-		padding-bottom: 0.5rem;
+		height: auto;
+		padding-bottom: 0rem;
+	}
+	.homeGrid h2 {
+		margin-bottom: 1rem;
 	}
 	.jk-top {
 		background-image:url('https://domdak.github.io/jk25/Panorama-sm.jpg');
