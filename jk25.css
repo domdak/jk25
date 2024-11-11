@@ -177,6 +177,9 @@ div .noULPad ul {
 	}
 }
 @media screen and (max-width: 992px) {
+	.homeGrid {
+		min-height: 10.5rem
+	}
 	.homeGrid h5 {
 		padding-bottom: 1rem;
 	}
