@@ -73,10 +73,14 @@ div .noULPad ul {
 
 .homeGrid h5 {
 	padding-top: 0.3rem;
-	padding-bottom: 1rem;
+	padding-bottom: 0.25rem;
 	font-size: 1.1rem;
 	color: #4A95C0;
 	margin-bottom: 0;
+}
+
+.homeGrid h2.padBelow {
+	padding-bottom: 0.75rem;
 }
 
 .homeGrid h4 {
@@ -87,7 +91,7 @@ div .noULPad ul {
 }
 
 .homeGrid h2 {
-	margin-bottom: 2rem
+	margin-bottom: 1rem
 }
 
 .homeGrid p {
@@ -171,9 +175,6 @@ div .noULPad ul {
 	.homeGrid {
 		height: auto;
 		padding-bottom: 0rem;
-	}
-	.homeGrid h2 {
-		margin-bottom: 1rem;
 	}
 	.jk-top {
 		background-image:url('https://domdak.github.io/jk25/Panorama-sm.jpg');
