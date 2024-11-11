@@ -66,6 +66,13 @@ div .noULPad ul {
 	height: 16.1em;
 }
 
+.frontEvents {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
 .dayNum {
 	background-color: #4A95C0;
 	box-shadow: rgba(0, 0, 0, 0.25) 0.15em .15em 0.2em;
