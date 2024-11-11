@@ -74,6 +74,12 @@ div .noULPad ul {
 	margin-bottom: 0;
 }
 
+.homeGrid h4 {
+	font-size: 1.4rem;
+    color: #4A95C0;
+	font-weight: bold;
+}
+
 
 .frontEvents {
 	display: flex;
