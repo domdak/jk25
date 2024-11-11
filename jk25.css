@@ -183,6 +183,9 @@ div .noULPad ul {
 	.homeGrid h5 {
 		padding-bottom: 1rem;
 	}
+	.mapTopper {
+		padding-top: 1.8rem;
+	}
 	.jk-top {
 		background-image:url('https://domdak.github.io/jk25/Panorama-sm.jpg');
 	}
