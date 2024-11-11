@@ -62,6 +62,11 @@ div .noULPad ul {
 	top: 0.5em;
 }
 
+.homeWelcomePara {
+	padding-top: .5rem;
+	padding-bottom: 2rem;
+}
+
 .homeGrid {
 	height: 16.1em;
 	text-align: center;
