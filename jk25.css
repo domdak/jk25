@@ -172,6 +172,9 @@ div .noULPad ul {
 	.justfiedRightCol {
 		padding-left: 1.5rem;
 	}
+	.homeGap {
+		 margin-top: 1.3rem;
+	}
 }
 @media screen and (max-width: 992px) {
 	.homeGrid {
