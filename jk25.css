@@ -153,10 +153,10 @@ div .noULPad ul {
 		padding-right: 0rem !important;
 	}
 	.justified {
-		padding-right: 2rem;
+		padding-right: 1rem;
 	}
 	.justfiedRightCol {
-		padding-left: 2rem;
+		padding-left: 1rem;
 	}
 }
 @media screen and (max-width: 992px) {
