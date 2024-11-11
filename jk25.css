@@ -81,7 +81,6 @@ div .noULPad ul {
 	margin-bottom: 0.1rem;
 }
 
-
 .frontEvents {
 	display: flex;
 	justify-content: center;
@@ -89,6 +88,11 @@ div .noULPad ul {
 	height: 100%;
 	flex-wrap: wrap;
     align-content: center;
+}
+
+.eventsBlob {
+	margin-top:1.3rem;
+	padding-bottom:0;
 }
 
 .dayNum {
@@ -386,12 +390,12 @@ div .noULPad ul {
 	width: 100%;
 }
 
-.merch:hover, .featuredBox:hover, .map-name:hover, .front-map:hover {
+.merch:hover, .featuredBox:hover, .map-name:hover, .front-map:hover, .eventsBlob:hover {
 	transform: scale(1.1);
 	transition: transform .2s;
 }
 
-.featuredBox, .front-map {
+.featuredBox, .front-map, .eventsBlob {
 	transition: transform .2s;
 }
 
