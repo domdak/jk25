@@ -67,11 +67,20 @@ div .noULPad ul {
 	text-align: center;
 }
 
+.homeGrid h5 {
+	padding-top: 0.3rem;
+	font-size: 1.1rem;
+	color: #4A95C0;
+	margin-bottom: 0;
+}
+
+
 .frontEvents {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	height: 100%;
+	padding-bottom: 1rem;
 }
 
 .dayNum {
