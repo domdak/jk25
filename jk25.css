@@ -62,6 +62,22 @@ div .noULPad ul {
 	top: 0.5em;
 }
 
+
+.dayNum {
+	background-color: #4A95C0;
+	box-shadow: rgba(0, 0, 0, 0.25) 0.15em .15em 0.2em;
+	border-radius: 1em;
+	padding: 0.2rem 1rem ;
+	font-family: Patua One;
+	font-size: 1.5em;
+	color: white;
+	width: fit-content;
+}
+
+
+
+
+
 @media screen and (min-width: 992px) {
 	.jk-top {
 		background-image:url('https://domdak.github.io/jk25/Panorama-lg.jpg');
