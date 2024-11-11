@@ -89,6 +89,10 @@ div .noULPad ul {
 	margin-top: 0rem
 }
 
+.eventsBlob a {
+	color: inherit;
+}
+
 .frontEvents {
 	display: flex;
 	justify-content: center;
