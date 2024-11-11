@@ -385,7 +385,7 @@ div .noULPad ul {
   }
 
 
-.merch, .featuredBox {
+.merch, .featuredBox, .homeGrid {
 	padding: 1.5rem !important;
 	width: 100%;
 }
