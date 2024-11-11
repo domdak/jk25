@@ -81,6 +81,10 @@ div .noULPad ul {
 	margin-bottom: 0.1rem;
 }
 
+.homeGrid p {
+	margin-top: 1rem
+}
+
 .frontEvents {
 	display: flex;
 	justify-content: center;
