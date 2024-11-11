@@ -455,7 +455,6 @@ div .noULPad ul {
 .appearText h1 {
 	line-height: 0;
 	margin: 0;
-	font-size: 3.5rem;
 }
 
 @keyframes appear {
@@ -835,10 +834,16 @@ div.infoPageHeader h1 {
 	.home-map img {
 		max-height: 8rem;
 	}
+	.appearText h1 {
+		font-size: 2.5rem;
+	}
 }
 
 
 @media screen and (min-width: 992px) {
+	.appearText h1 {
+		font-size: 3.5rem;
+	}
 	.home-map img {
 		max-height: 12rem;
 	}
