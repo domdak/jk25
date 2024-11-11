@@ -68,12 +68,12 @@ div .noULPad ul {
 }
 
 .homeGrid {
-	height: 16.1em;
 	text-align: center;
 }
 
 .homeGrid h5 {
 	padding-top: 0.3rem;
+	padding-bottom: 1rem;
 	font-size: 1.1rem;
 	color: #4A95C0;
 	margin-bottom: 0;
@@ -135,6 +135,9 @@ div .noULPad ul {
 
 
 @media screen and (min-width: 992px) {
+	.homeGrid {
+		height: 16.1em;
+	}
 	.jk-top {
 		background-image:url('https://domdak.github.io/jk25/Panorama-lg.jpg');
 	}
@@ -165,6 +168,10 @@ div .noULPad ul {
 	}
 }
 @media screen and (max-width: 992px) {
+	.homeGrid {
+		min-height: 8em;
+		padding-bottom: 0.5rem;
+	}
 	.jk-top {
 		background-image:url('https://domdak.github.io/jk25/Panorama-sm.jpg');
 	}
