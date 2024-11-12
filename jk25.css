@@ -446,7 +446,7 @@ div .noULPad ul {
 @media screen and (max-width: 992px) {
 	.homeGrid {
 		max-width: 25rem;
-		width: 90%;
+		width: 90% !important;
 	}
 	.merch-box {
 		display: flex;
