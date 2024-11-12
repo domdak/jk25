@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-.jk-site-title, .jk-sm-dates, h1, h2, h3, h4, h5, h6 {
+.jk-site-title, .jk-top, .jk-sm-dates, h1, h2, h3, h4, h5, h6 {
 	font-family: "Patua One", serif;
 }
 h2 {
@@ -258,6 +258,18 @@ div .noULPad ul {
 	content-visibility: hidden;
 	visibility: hidden ;
 }
+
+
+.jk-top::before {
+	content: "Jan Kjellström International Festival of Orienteering";
+	font-size: 1.9rem;
+	line-height: 1rem;
+	display: flex;
+	justify-content: center;
+	font-weight: bold;
+	color: white;
+}
+
 
 .jk-title-location {
 	display: inline-flex;
