@@ -49,8 +49,6 @@ div .noULPad ul {
 
 .jk-top {
 	border-radius: 0rem 0rem 3rem 3rem ;
-	height: 35vw;
-	min-height: 150px;
 	box-shadow: rgba(0, 0, 0, 0.25) 0.25em .25em 0.2em;
 }
 
@@ -273,13 +271,6 @@ div .noULPad ul {
 	text-shadow: 2px 2px 5px black;
 }
 
-@media screen and (max-width: 991.5px) {
-    .jk-logo:before {
-        font-size: 3.5vw !important;
-		margin-top: 25vw;
-	}
-}
-
 
 .jk-title-location {
 	display: inline-flex;
@@ -289,6 +280,17 @@ div .noULPad ul {
 	content: " ⬥ 18th - 21st April 2025";
 }
 
+@media screen and (max-width: 480px) {
+	.jk-top {
+		height: 160px;
+	}
+	.jk-logo {
+		height: 105px
+	}
+	.jk-logo:before {
+		margin-top: 110px;
+	}
+}
 @media screen and (max-width: 991.5px) {
     .jk-site-title1 {
         font-size: 3.5vw !important;
@@ -306,24 +308,21 @@ div .noULPad ul {
 	}
 	.jk-top {
 		border-radius: 0rem 0rem 2rem 2rem;
-		max-height: 350px;
+		height: 250px;
 	}
 	.jk-logo {
 		top: 1.5vw;
-		height: 22.5vw !important;
-		max-height: 300px;
-		max-height: 100%;	
+		height: 163px;
+	}
+	.jk-logo:before {
+		margin-top: 176px;
+		font-size: 3.5vw !important;
 	}
 }
 
 @media screen and (max-width: 400px) {
 	.jk-top {
 	border-radius: 0rem 0rem 1.5rem 1.5rem ;
-	}
-}
-@media screen and (max-width: 425px) {
-	.jk-logo {
-		height: calc(140px - 10vw) !important;
 	}
 }
 
