@@ -859,6 +859,11 @@ iframe.map {
 	transition: transform .2s;
 }
 
+.map-name img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
 div.infoPageHeader {
 	text-align: center;
 	padding-bottom: 2rem;
