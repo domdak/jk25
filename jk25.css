@@ -189,9 +189,9 @@ div .noULPad ul {
 		background-image:url('https://domdak.github.io/jk25/Panorama-sm.jpg');
 	}
 	div.desktopHead {
-		content-visibility: hidden;
 		visibility: hidden;
 		margin: 0;
+		height: 0px;
 	}
 	.jk-top:hover::after {
 		font-size: 0.7em;
@@ -470,8 +470,8 @@ div .noULPad ul {
 		max-width: 25rem;
 	}
 	div.fillerDesktop {
-		content-visibility: hidden;
 		visibility: hidden;
+		height: 0px;
 	}
 }
 
