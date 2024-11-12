@@ -287,7 +287,8 @@ div .noULPad ul {
 	color: #fff200;
 	text-shadow: 2px 2px 5px black;
 	font-weight: normal;
-
+	display: flex;
+    justify-content: center;
 }
 
 .jk-title-location {
