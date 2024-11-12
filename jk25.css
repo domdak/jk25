@@ -306,7 +306,7 @@ div .noULPad ul {
 
 @media screen and (max-width: 991.5px) {
     .jk-site-title1 {
-        font-size: 3.5vw !important;
+        font-size: 3.7vw !important;
 		line-height: 0 !important;
 		position: relative;
 		display: flex;
@@ -316,20 +316,15 @@ div .noULPad ul {
 	.jk-site-title {
 		bottom: 7.8vw !important;
 	}
-	.col.pt-2 {
+	.jk-logo::after {
 		font-size: 3.3vw !important;
 	}
 	.jk-top {
 		border-radius: 0rem 0rem 2rem 2rem;
 	}
-	/*
-	.jk-logo {
-		height: 163px;
-	}
 	.jk-logo:before {
-		margin-top: 176px;
-		font-size: 3.5vw !important;
-	} */
+		font-size: 3.7vw !important;
+	}
 }
 /*
 @media screen and (max-width: 480px) {
