@@ -377,6 +377,8 @@ div .noULPad ul {
 
 
 .col.pt-2 {
+	visibility: hidden;
+    content-visibility: hidden;
     top: -6vw;
     text-align: center;
 	flex: none;
