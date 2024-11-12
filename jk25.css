@@ -369,10 +369,12 @@ div .noULPad ul {
 	}
 	.jk-logo:before {
         font-size: 1.7rem !important;
+		line-height: 10px;
 	}
 	.jk-logo::after {
         font-size: 1.5rem !important;
 		margin-top: 25px;
+		line-height: 10px;
 	}
 }
 .mr-2 {
