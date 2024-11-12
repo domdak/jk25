@@ -366,6 +366,12 @@ div .noULPad ul {
 	.jk-logo:before {
 		margin-top: 176px !important;
 	}
+	.jk-logo:before {
+        font-size: 1.7rem !important;
+	}
+	.jk-logo::after {
+        font-size: 1.5rem !important;
+	}
 }
 .mr-2 {
 	margin-right: 0 !important;
