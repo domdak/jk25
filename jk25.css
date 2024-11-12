@@ -444,6 +444,10 @@ div .noULPad ul {
 }
 
 @media screen and (max-width: 992px) {
+	.homeGrid {
+		max-width: 25rem;
+		width: 90%;
+	}
 	.merch-box {
 		display: flex;
 		align-items: center;
@@ -880,7 +884,7 @@ div.infoPageHeader h1 {
 
 @media screen and (max-width: 768px) {
 	.home-map img {
-		width: 45%;
+		width: 49%;
 	}
 	.appearText {
 		text-align: center;
