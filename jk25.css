@@ -319,6 +319,9 @@ div .noULPad ul {
 	.jk-site-title {
 		bottom: 7.8vw !important;
 	}
+	.jk-logo {
+		max-height: 160px;
+	}
 	.jk-logo::after {
 		font-size: 3.3vw !important;
 	}
