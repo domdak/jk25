@@ -476,15 +476,6 @@ img.home2 {
 	animation-name: welcome2;
 }
 
-@keyframes welcome1 {
-	from {}
-	to {transform: translatex(-10rem)}
-}
-@keyframes welcome2 {
-	from {}
-	to {transform: translatex(10rem)}
-}
-
 .merch img, .featuredBox img {
 	width: 100%;
 }
@@ -832,15 +823,31 @@ div.infoPageHeader h1 {
 		padding-top: 0;
 	}
 	.home-map img {
-		max-height: 8rem;
+		max-height: 9.5rem;
 	}
 	.appearText h1 {
-		font-size: 2.5rem;
+		font-size: 3rem;
+	}
+	@keyframes welcome1 {
+		from {}
+		to {transform: translatex(-7.5rem)}
+	}
+	@keyframes welcome2 {
+		from {}
+		to {transform: translatex(7.5rem)}
 	}
 }
 
 
 @media screen and (min-width: 992px) {
+	@keyframes welcome1 {
+		from {}
+		to {transform: translatex(-10rem)}
+	}
+	@keyframes welcome2 {
+		from {}
+		to {transform: translatex(10rem)}
+	}
 	.appearText h1 {
 		font-size: 3.5rem;
 	}
