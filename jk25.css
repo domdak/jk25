@@ -192,7 +192,7 @@ div .noULPad ul {
 	}
 	div.desktopHead {
 		content-visibility: hidden;
-		visibility: none;
+		visibility: hidden;
 		margin: 0;
 	}
 	.jk-top:hover::after {
