@@ -274,7 +274,7 @@ div .noULPad ul {
 .jk-logo::before {
 	content: "Jan Kjellström International Festival of Orienteering";
 	font-size: 1.9rem;
-	line-height: 1rem;
+	line-height: 1vw;
 	display: flex;
 	justify-content: center;
 	font-weight: bold;
@@ -289,6 +289,8 @@ div .noULPad ul {
 	font-weight: normal;
 	display: flex;
     justify-content: center;
+    margin-top: 3vw;
+    line-height: 1vw;
 }
 
 .jk-title-location {
@@ -347,7 +349,7 @@ div .noULPad ul {
 	height: 22.5vw !important;
 }
 .jk-logo:before {
-	margin-top: 24vw !important;
+	margin-top: 25vw !important;
 }
 
 
