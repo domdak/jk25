@@ -811,6 +811,16 @@ div.infoPageHeader h1 {
 	padding-bottom: 0.3rem;
 }
 
+@media screen and (max-width: 768px) {
+	.home-map img {
+		width: 45%;
+	}
+	.appearText {
+		text-align: center;
+		padding: 2rem 0;
+	}
+}
+
 @media screen and (min-width: 768px) {
 	.appearText {
 		text-align: center;
