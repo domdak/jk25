@@ -259,6 +259,17 @@ div .noULPad ul {
 	visibility: hidden ;
 }
 
+.jk-logo {
+	background-image:url('https://domdak.github.io/jk25/JK25_Border.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 100%;
+	right: 0;
+	height: 195px;
+	display: block;
+	background-position: center;
+}
+
 
 .jk-logo::before {
 	content: "Jan Kjellström International Festival of Orienteering";
@@ -280,17 +291,6 @@ div .noULPad ul {
 	content: " ⬥ 18th - 21st April 2025";
 }
 
-@media screen and (max-width: 480px) {
-	.jk-top {
-		height: 160px;
-	}
-	.jk-logo {
-		height: 105px
-	}
-	.jk-logo:before {
-		margin-top: 110px;
-	}
-}
 @media screen and (max-width: 991.5px) {
     .jk-site-title1 {
         font-size: 3.5vw !important;
@@ -320,6 +320,18 @@ div .noULPad ul {
 	}
 }
 
+@media screen and (max-width: 480px) {
+	.jk-top {
+		height: 160px;
+	}
+	.jk-logo {
+		height: 105px
+	}
+	.jk-logo:before {
+		margin-top: 110px;
+	}
+}
+
 @media screen and (max-width: 400px) {
 	.jk-top {
 	border-radius: 0rem 0rem 1.5rem 1.5rem ;
@@ -344,16 +356,7 @@ div .noULPad ul {
 	}
 }
 
-.jk-logo {
-	background-image:url('https://domdak.github.io/jk25/JK25_Border.png');
-	background-size: contain;
-	background-repeat: no-repeat;
-	width: 100%;
-	right: 0;
-	height: 195px;
-	display: block;
-	background-position: center;
-}
+
 
 .col.pt-2 {
     top: -6vw;
