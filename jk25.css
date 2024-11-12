@@ -445,13 +445,6 @@ div .noULPad ul {
 	transition: transform .2s;
 }
 
-.appearText {
-	text-align: center;
-	animation-name: appear;
-	animation-duration: 1.5s;
-	transform: translate(0,6.5rem);
-}
-
 .appearText h1 {
 	line-height: 0;
 	margin: 0;
@@ -819,6 +812,12 @@ div.infoPageHeader h1 {
 }
 
 @media screen and (min-width: 768px) {
+	.appearText {
+		text-align: center;
+		animation-name: appear;
+		animation-duration: 1.5s;
+		transform: translate(0,5.5rem);
+	}
 	.map-name {
 		padding-top: 0;
 	}
@@ -840,6 +839,9 @@ div.infoPageHeader h1 {
 
 
 @media screen and (min-width: 992px) {
+	.appearText {
+		transform: translate(0,6.5rem);
+	}
 	@keyframes welcome1 {
 		from {}
 		to {transform: translatex(-10rem)}
