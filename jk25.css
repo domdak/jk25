@@ -228,7 +228,6 @@ div .noULPad ul {
 
 @media screen and (min-width: 992px) {
 	.jk-top {
-	max-height: 300px;
 	margin-bottom: 1em;
 	}
 }
@@ -291,6 +290,7 @@ div .noULPad ul {
     justify-content: center;
     margin-top: 3vw;
     line-height: 1vw;
+	font-size: 1.7em;
 }
 
 .jk-title-location {
@@ -343,13 +343,14 @@ div .noULPad ul {
 }  */
 
 .jk-top {
-	height: 35vw !important;
+	height: 35vw;
 }
 .jk-logo {
-	height: 22.5vw !important;
+	max-height: 220px;
+	height: 22.5vw;
 }
 .jk-logo:before {
-	margin-top: 25vw !important;
+	margin-top: 25vw;
 }
 
 
@@ -372,6 +373,9 @@ div .noULPad ul {
 }
 
 @media screen and (min-width: 992px) {
+	.jk-logo:before {
+		margin-top: 245px !important;
+	}
 	.mt-4 {
 		margin-top: 0.5rem !important;
 	}
