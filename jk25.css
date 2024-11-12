@@ -320,7 +320,7 @@ div .noULPad ul {
 		bottom: 7.8vw !important;
 	}
 	.jk-logo {
-		max-height: 160px;
+		max-height: 160px !important;
 	}
 	.jk-logo::after {
 		font-size: 3.3vw !important;
@@ -362,7 +362,11 @@ div .noULPad ul {
 	border-radius: 0rem 0rem 1.5rem 1.5rem ;
 	}
 }
-
+@media screen and (min-width: 710px) {
+	.jk-logo:before {
+		margin-top: 176px !important;
+	}
+}
 .mr-2 {
 	margin-right: 0 !important;
 }
