@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-.jk-site-title, .jk-logo:before, .jk-sm-dates, h1, h2, h3, h4, h5, h6 {
+.jk-site-title, .jk-logo:before, .jk-logo::after, .jk-sm-dates, h1, h2, h3, h4, h5, h6 {
 	font-family: "Patua One", serif;
 }
 h2 {
@@ -282,14 +282,27 @@ div .noULPad ul {
 	text-shadow: 2px 2px 5px black;
 }
 
+.jk-logo::after {
+	content: "South Yorkshire ⬥ 18th - 21st April 2025";
+	color: #fff200;
+	text-shadow: 2px 2px 5px black;
+	font-weight: normal;
 
+}
+
+.jk-title-location {
+	content-visibility: hidden;
+	visibility: hidden;
+}
+
+/*
 .jk-title-location {
 	display: inline-flex;
 }
 
 .jk-title-location::after {
 	content: " ⬥ 18th - 21st April 2025";
-}
+}*/
 
 @media screen and (max-width: 991.5px) {
     .jk-site-title1 {
@@ -308,18 +321,17 @@ div .noULPad ul {
 	}
 	.jk-top {
 		border-radius: 0rem 0rem 2rem 2rem;
-		height: 250px;
 	}
+	/*
 	.jk-logo {
-		top: 1.5vw;
 		height: 163px;
 	}
 	.jk-logo:before {
 		margin-top: 176px;
 		font-size: 3.5vw !important;
-	}
+	} */
 }
-
+/*
 @media screen and (max-width: 480px) {
 	.jk-top {
 		height: 160px;
@@ -330,7 +342,18 @@ div .noULPad ul {
 	.jk-logo:before {
 		margin-top: 110px;
 	}
+}  */
+
+.jk-top {
+	height: 35vw !important;
 }
+.jk-logo {
+	height: 22.5vw !important;
+}
+.jk-logo:before {
+	margin-top: 24vw !important;
+}
+
 
 @media screen and (max-width: 400px) {
 	.jk-top {
