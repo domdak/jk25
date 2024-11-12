@@ -288,7 +288,7 @@ div .noULPad ul {
 	font-weight: normal;
 	display: flex;
     justify-content: center;
-    margin-top: 25px;
+	margin-top: 3vw;
     line-height: 1vw;
 	font-size: 1.7em;
 }
@@ -372,7 +372,7 @@ div .noULPad ul {
 	}
 	.jk-logo::after {
         font-size: 1.5rem !important;
-		margin-top: 3vw !important;
+		margin-top: 25px;
 	}
 }
 .mr-2 {
