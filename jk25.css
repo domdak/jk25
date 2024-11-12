@@ -271,7 +271,10 @@ div .noULPad ul {
     .jk-site-title1 {
         font-size: 3.5vw !important;
 		line-height: 0 !important;
-		top: 25vw !important;
+		position: relative;
+		display: flex;
+		top: 2.45rem !important;
+		justify-content: center;
 	}
 	.jk-site-title {
 		bottom: 7.8vw !important;
