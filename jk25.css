@@ -829,11 +829,11 @@ div.infoPageHeader h1 {
 	}
 	@keyframes welcome1 {
 		from {}
-		to {transform: translatex(-7.5rem)}
+		to {transform: translatex(-9rem)}
 	}
 	@keyframes welcome2 {
 		from {}
-		to {transform: translatex(7.5rem)}
+		to {transform: translatex(9rem)}
 	}
 }
 
