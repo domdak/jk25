@@ -253,7 +253,7 @@ div .noULPad ul {
 }
 */
 
-.jk-site-title1, .jk-site-title2, .jk-site-title3, .jk-title-dates {
+.jk-site-title1, .jk-site-title2, .jk-site-title3, .jk-title-dates, .jk-title-location, .jk-sm-dates, .col.pt-2 {
 	content-visibility: hidden;
 	visibility: hidden ;
 }
@@ -293,20 +293,6 @@ div .noULPad ul {
 	font-size: 1.7em;
 }
 
-.jk-title-location {
-	content-visibility: hidden;
-	visibility: hidden;
-}
-
-/*
-.jk-title-location {
-	display: inline-flex;
-}
-
-.jk-title-location::after {
-	content: " ⬥ 18th - 21st April 2025";
-}*/
-
 @media screen and (max-width: 991.5px) {
     .jk-site-title1 {
         font-size: 3.7vw !important;
@@ -332,18 +318,6 @@ div .noULPad ul {
 		font-size: 3.6vw !important;
 	}
 }
-/*
-@media screen and (max-width: 480px) {
-	.jk-top {
-		height: 160px;
-	}
-	.jk-logo {
-		height: 105px
-	}
-	.jk-logo:before {
-		margin-top: 110px;
-	}
-}  */
 
 .jk-top {
 	height: 35vw;
@@ -400,21 +374,6 @@ div .noULPad ul {
 	.jk-logo {
 		top: 1rem;
 	}
-}
-
-
-
-.col.pt-2 {
-	visibility: hidden;
-    content-visibility: hidden;
-    top: -6vw;
-    text-align: center;
-	flex: none;
-	color: #fff200;
-	text-shadow: 2px 2px 5px black;
-	padding-top: 0 !important;
-	margin-left: 15px;
-	height: 1em;
 }
 
 .d-inline-block.mr-2::after {
@@ -688,11 +647,6 @@ a:hover {
 	}
 }
 
-.jk-sm-date {
-	content-visibility: hidden;
-	visibility: hidden;
-}
-
 .jk-central::after {
 	content: '';
 	width: 100%;
@@ -736,11 +690,6 @@ a:hover {
 .jk-menu .active .jk-menu-link {
 	color: Black !important;
 }
-
-/*
-[href*='458'],[href*='459'] {
-}
-*/
 
 .col-lg-4, .col-lg-8 {
 	flex: 0 0 100%;
