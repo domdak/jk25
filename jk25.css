@@ -253,7 +253,7 @@ div .noULPad ul {
 }
 */
 
-.jk-site-title1, .jk-site-title2, .jk-site-title3, .jk-title-dates, .jk-title-location, .jk-sm-dates, .col.pt-2 {
+.jk-site-title1, .jk-site-title2, .jk-site-title3, .jk-title-dates, .jk-title-location, .jk-sm-date, .col.pt-2 {
 	content-visibility: hidden;
 	visibility: hidden ;
 }
