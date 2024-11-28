@@ -730,14 +730,14 @@ iframe.map {
 	box-shadow: 2px 2px 2px 0 #ccc;
 }
 
-@media screen and (max-width: 576px) {
-	div.introPara {
-		text-align: justify;
-	}
-}
 @media screen and (max-width: 992px) {
 	div.introPara {
 		text-align: center;
+	}
+}
+@media screen and (max-width: 576px) {
+	div.introPara {
+		text-align: justify;
 	}
 }
 @media screen and (min-width: 992px) {
