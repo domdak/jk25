@@ -351,6 +351,7 @@ div .noULPad ul {
 .jk-logo {
 	max-height: 220px;
 	height: 22.5vw;
+	top: 0.5rem;
 }
 .jk-logo:before {
 	margin-top: 25vw;
@@ -395,6 +396,9 @@ div .noULPad ul {
 	}
 	.mt-4 {
 		margin-top: 0.5rem !important;
+	}
+	.jk-logo {
+		top: 1rem;
 	}
 }
 
