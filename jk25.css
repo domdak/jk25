@@ -923,8 +923,9 @@ div.infoPageHeader h1 {
 		width: 100%;
 	}
 	.square-img-box {
-		padding-left: 25vw;
-		padding-right: 25vw;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
 	}
 	.homeGrid {
 		height: auto;
