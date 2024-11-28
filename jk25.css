@@ -242,17 +242,6 @@ div .noULPad ul {
 	width: 100%;
 }
 
-/*
-.jk-site-title1 {
-	font-size: 1.9rem;
-	line-height: 2.3rem;
-}
-
-.jk-site-title1::after {
-	content: " International Festival of Orienteering";
-}
-*/
-
 .jk-site-title1, .jk-site-title2, .jk-site-title3, .jk-title-dates, .jk-title-location, .jk-sm-date, .col.pt-2 {
 	content-visibility: hidden;
 	visibility: hidden ;
@@ -943,6 +932,8 @@ div.infoPageHeader h1 {
 	border-radius: 5rem;
 	outline: none !important;
 	box-shadow: rgba(0, 0, 0, 0.15) 0.15em .15em 0.2em;
+	margin-top: 0.5rem;
+	font-size: 1rem;
 }
 
 ul {
