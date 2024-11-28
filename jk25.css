@@ -732,7 +732,7 @@ iframe.map {
 
 @media screen and (max-width: 992px) {
 	div.introPara {
-		text-align: center;
+		text-align: justify;
 	}
 }
 
