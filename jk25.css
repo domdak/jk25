@@ -722,6 +722,10 @@ a:hover {
 
 
 
+div.car, div.bike, div.public {
+	visibility: hidden;
+	content-visibility: hidden;
+}
 
 input[type="radio"] {
 	height: 1rem;
@@ -752,6 +756,7 @@ input[value="public"]:checked ~ div.public
 {
 	animation-name: reveal;
 	animation-duration: 1s;
+	animation-fill-mode: forwards;
 }
 
 input[value="bike"]:checked ~ div.car,
