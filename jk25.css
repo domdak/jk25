@@ -720,9 +720,31 @@ a:hover {
 	margin-top: 1em;
 }
 
-.transit {
-	font-size: 1rem;
+
+input[type="radio"] {
+	height: 1rem;
+	width: 10rem;
+	background-color: #4a95c0;
+	margin-right: 0.7em !important;
+	appearance: none;
 }
+
+input[type="radio"]:after {
+	font-family: Patua One;
+	font-size: 1rem;
+	color: black;
+}
+
+input[value="car"]:after {
+	content: "Car"
+}
+input[value="public"]:after {
+	content: "Public Transport"
+}
+input[value="bike"]:after {
+	content: "Bike"
+}
+
 
 hr {
 	margin-top: 1.5rem;
