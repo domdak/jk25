@@ -722,80 +722,71 @@ a:hover {
 
 
 
-div.car, div.bike, div.public {
-	visibility: hidden;
-	content-visibility: hidden;
-}
 
 input[type="radio"] {
-	height: 1rem;
-	width: 10rem;
+	appearance: none;
 	background-color: #4a95c0;
-	margin-right: 0.7em !important;
+	padding: 0.2em 0.6em 0.25em 0.7em;
+    border-radius: 2em;
+    box-shadow: rgba(0, 0, 0, 0.25) 0.15em .15em 0.2em;
+    margin-bottom: .5em;
+	font-family: Patua One;
+	font-size: 1rem;
+	color: white;
+	margin-right: 0.7em;
 }
 
 input[type="radio"]:after {
-	font-family: Patua One;
-	font-size: 1rem;
-	color: black;
+	content: '';
+	width: 1.5rem;
+	height: 1.5rem;
+	float: right;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-left: 0.5rem;
 }
 
+input[value="car"]:before {
+	content: "Car";
+}
 input[value="car"]:after {
-	content: "Car"
+	background-image: url('https://domdak.github.io/jk25/icons/sprint-black.svg');
+}
+input[value="van"]:before {
+	content: "Campervan";
+}
+input[value="van"]:after {
+	background-image: url('https://domdak.github.io/jk25/icons/sprint-black.svg');
+}
+input[value="public"]:before {
+	content: "Public Transport";
 }
 input[value="public"]:after {
-	content: "Public Transport"
+	background-image: url('https://domdak.github.io/jk25/icons/sprint-black.svg');
+}
+input[value="bike"]:before {
+	content: "Bike"
 }
 input[value="bike"]:after {
-	content: "Bike"
+	background-image: url('https://domdak.github.io/jk25/icons/sprint-black.svg');
+}
+
+div.car, div.van, div.bike, div.public {
+	  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.3s ease-out;
+}
+
+div.car div, div.van div, div.bike div, div.public div {
+	overflow: hidden;
+	margin-top: 0.5rem;
 }
 
 input[value="bike"]:checked ~ div.bike,
 input[value="car"]:checked ~ div.car,
-input[value="public"]:checked ~ div.public 
-{
-	animation-name: reveal;
-	animation-duration: 1s;
-	animation-fill-mode: forwards;
-}
-
-input[value="bike"]:checked ~ div.car,
-input[value="bike"]:checked ~ div.public,
-input[value="car"]:checked ~ div.bike,
-input[value="car"]:checked ~ div.public,
-input[value="public"]:checked ~ div.car,
-input[value="public"]:checked ~ div.bike {
-	animation-name: hiding;
-	animation-duration: 0.4s;
-	animation-fill-mode: forwards;
-}
-
-@keyframes reveal {
-  0%  {line-height: 0%;
-		opacity: 0;
-		visibility: hidden;
-		content-visibility: hidden;}
-50% {line-height: 0%;
-		opacity: 0;
-		visibility: hidden;
-		content-visibility: hidden;}
-  100%    {line-height: 150%;
-		opacity: 1;
-		visibility: visible;
-		content-visibility: visible;}
-}
-@keyframes hiding {
-  from  {line-height: 150%;
-		opacity: 1;
-		visibility: visible;
-		content-visibility: visible;}
-  to    {line-height: 0%;
-		opacity: 0;
-		visibility: hidden;
-		content-visibility: hidden;}
-}
-
-
+input[value="public"]:checked ~ div.public,
+input[value="van"]:checked ~ div.van 
+{ grid-template-rows: 1fr;}
 
 
 
