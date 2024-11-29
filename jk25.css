@@ -721,12 +721,13 @@ a:hover {
 }
 
 
+
+
 input[type="radio"] {
 	height: 1rem;
 	width: 10rem;
 	background-color: #4a95c0;
 	margin-right: 0.7em !important;
-	appearance: none;
 }
 
 input[type="radio"]:after {
@@ -744,6 +745,53 @@ input[value="public"]:after {
 input[value="bike"]:after {
 	content: "Bike"
 }
+
+input[value="bike"]:checked ~ div.bike,
+input[value="car"]:checked ~ div.car,
+input[value="public"]:checked ~ div.public 
+{
+	animation-name: reveal;
+	animation-duration: 1s;
+}
+
+input[value="bike"]:checked ~ div.car,
+input[value="bike"]:checked ~ div.public,
+input[value="car"]:checked ~ div.bike,
+input[value="car"]:checked ~ div.public,
+input[value="public"]:checked ~ div.car,
+input[value="public"]:checked ~ div.bike {
+	animation-name: hiding;
+	animation-duration: 0.4s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes reveal {
+  0%  {line-height: 0%;
+		opacity: 0;
+		visibility: hidden;
+		content-visibility: hidden;}
+50% {line-height: 0%;
+		opacity: 0;
+		visibility: hidden;
+		content-visibility: hidden;}
+  100%    {line-height: 150%;
+		opacity: 1;
+		visibility: visible;
+		content-visibility: visible;}
+}
+@keyframes hiding {
+  from  {line-height: 150%;
+		opacity: 1;
+		visibility: visible;
+		content-visibility: visible;}
+  to    {line-height: 0%;
+		opacity: 0;
+		visibility: hidden;
+		content-visibility: hidden;}
+}
+
+
+
 
 
 hr {
