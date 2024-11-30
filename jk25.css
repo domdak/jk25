@@ -737,7 +737,9 @@ input[type="radio"] {
 }
 
 @media screen and (min-width: 992px) {
-	transition: box-shadow 0.3s ease-in-out;
+	input[type="radio"] {
+		transition: box-shadow 0.3s ease-in-out;
+	}
 }
 
 input[type="radio"]:checked,
