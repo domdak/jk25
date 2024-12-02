@@ -744,6 +744,7 @@ input[type="radio"] {
 	margin-right: 0.7em;
 	width: auto;
 	height: auto;
+	pointer-events: visible;
 }
 
 @media screen and (min-width: 992px) {
@@ -795,19 +796,19 @@ input[value="bike"]:after {
 
 
 input[value="oneSprint"]:before {
-	content: "Sprint - Friday 18th April";
+	content: "Sprint - Fri 18th April";
 }
 input[value="oneSprint"]:after {
 	background-image: url('https://domdak.github.io/jk25/icons/sprint-white.svg');
 }
 input[value="twoMiddle"]:before {
-	content: "Middle - Saturday 19th April";
+	content: "Middle - Sat 19th April";
 }
 input[value="twoMiddle"]:after {
 	background-image: url('https://domdak.github.io/jk25/icons/middle-white.svg');
 }
 input[value="threeLong"]:before {
-	content: "Long - Sunday 20th April";
+	content: "Long - Sun 20th April";
 }
 input[value="threeLong"]:after {
 	background-image: url('https://domdak.github.io/jk25/icons/long-white.svg');
