@@ -793,20 +793,47 @@ input[value="bike"]:after {
 	background-image: url('https://domdak.github.io/jk25/icons/bike-white.svg');
 }
 
-div.car, div.van, div.bike, div.public {
+
+input[value="oneSprint"]:before {
+	content: "Sprint - Friday 18th April";
+}
+input[value="oneSprint"]:after {
+	background-image: url('https://domdak.github.io/jk25/icons/sprint-white.svg');
+}
+input[value="twoMiddle"]:before {
+	content: "Middle - Saturday 19th April";
+}
+input[value="twoMiddle"]:after {
+	background-image: url('https://domdak.github.io/jk25/icons/middle-white.svg');
+}
+input[value="threeLong"]:before {
+	content: "Long - Sunday 20th April";
+}
+input[value="threeLong"]:after {
+	background-image: url('https://domdak.github.io/jk25/icons/long-white.svg');
+}
+
+
+
+
+div.car, div.van, div.bike, div.public, div.oneSprint, div.twoMiddle, div.threeLong {
 	  display: grid;
   grid-template-rows: 0fr;
   transition: grid-template-rows 0.3s ease-out;
 }
 
-div.car div, div.van div, div.bike div, div.public div {
+div.car div, div.van div, div.bike div, div.public div, 
+div.oneSprint div, div.twoMiddle div, div.threeLong div {
 	overflow: hidden;
 }
 
 input[value="bike"]:checked ~ div.bike,
 input[value="car"]:checked ~ div.car,
 input[value="public"]:checked ~ div.public,
-input[value="van"]:checked ~ div.van 
+input[value="van"]:checked ~ div.van,
+input[value="oneSprint"]:checked ~ div.oneSprint,
+input[value="twoMiddle"]:checked ~ div.twoMiddle,
+input[value="threeLong"]:checked ~ div.threeLong
 { grid-template-rows: 1fr;}
 
 
