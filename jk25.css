@@ -747,6 +747,7 @@ input[type="radio"] {
 	pointer-events: visible;
 }
 
+
 @media screen and (min-width: 992px) {
 	input[type="radio"] {
 		transition: box-shadow 0.3s ease-in-out;
