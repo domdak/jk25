@@ -41,6 +41,10 @@ div .noULPad ul {
 .jk-main > .row {
 }
 
+.verticalEqual {
+	align-items: center;
+}
+
 .jk-header-container {
 	padding-right: 0px;
 	padding-left: 0px;
