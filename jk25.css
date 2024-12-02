@@ -148,6 +148,7 @@ div .noULPad ul {
 	div.mobileHead {
 		content-visibility: hidden;
 		visibility: hidden;
+		height: 0;
 		margin: 0;
 	}
 	div.desktopHead {
@@ -191,7 +192,7 @@ div .noULPad ul {
 	div.desktopHead {
 		visibility: hidden;
 		margin: 0;
-		height: 0px;
+		height: 0;
 	}
 	.jk-top:hover::after {
 		font-size: 0.7em;
@@ -244,7 +245,8 @@ div .noULPad ul {
 
 .jk-site-title1, .jk-site-title2, .jk-site-title3, .jk-title-dates, .jk-title-location, .jk-sm-date, .col.pt-2 {
 	content-visibility: hidden;
-	visibility: hidden ;
+	visibility: hidden;
+	height: 0;
 }
 
 .jk-logo {
@@ -425,7 +427,7 @@ div .noULPad ul {
 	}
 	div.fillerDesktop {
 		visibility: hidden;
-		height: 0px;
+		height: 0;
 	}
 }
 
