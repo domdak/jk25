@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-.jk-site-title, .jk-logo:before, .jk-logo::after, .jk-sm-dates, h1, h2, h3, h4, h5, h6 {
+.jk-site-title, .jk-logo:before, .jk-logo:after, .jk-sm-dates, h1, h2, h3, h4, h5, h6 {
 	font-family: "Patua One", serif;
 }
 h2 {
@@ -56,7 +56,7 @@ div .noULPad ul {
 	box-shadow: rgba(0, 0, 0, 0.25) 0.25em .25em 0.2em;
 }
 
-.jk-top:hover::after {
+.jk-top:hover:after {
 	content: "© Marketing Sheffield";
 	color: white;
 	position: absolute;
@@ -158,7 +158,7 @@ div .noULPad ul {
 	div.desktopHead {
 		margin-top: 0.5rem
 	}
-	.jk-top:hover::after {
+	.jk-top:hover:after {
 		font-size: 0.9em;
 	}
 	.map-name {
@@ -198,7 +198,7 @@ div .noULPad ul {
 		margin: 0;
 		height: 0;
 	}
-	.jk-top:hover::after {
+	.jk-top:hover:after {
 		font-size: 0.7em;
 	}
 	.quoteBox {
@@ -265,7 +265,7 @@ div .noULPad ul {
 }
 
 
-.jk-logo::before {
+.jk-logo:before {
 	content: "Jan Kjellström International Festival of Orienteering";
 	font-size: 1.9rem;
 	line-height: 1vw;
@@ -276,7 +276,7 @@ div .noULPad ul {
 	text-shadow: 2px 2px 5px black;
 }
 
-.jk-logo::after {
+.jk-logo:after {
 	content: "South Yorkshire ⬥ 18th - 21st April 2025";
 	color: #fff200;
 	text-shadow: 2px 2px 5px black;
@@ -303,7 +303,7 @@ div .noULPad ul {
 	.jk-logo {
 		max-height: 160px !important;
 	}
-	.jk-logo::after {
+	.jk-logo:after {
 		font-size: 3.3vw !important;
 	}
 	.jk-top {
@@ -341,7 +341,7 @@ div .noULPad ul {
         font-size: 1.7rem !important;
 		line-height: 10px;
 	}
-	.jk-logo::after {
+	.jk-logo:after {
         font-size: 1.5rem !important;
 		margin-top: 21px;
 		line-height: 10px;
@@ -371,7 +371,7 @@ div .noULPad ul {
 	}
 }
 
-.d-inline-block.mr-2::after {
+.d-inline-block.mr-2:after {
 	content: " ⬥ 18th - 21st April 2025";
 }
 
@@ -526,10 +526,10 @@ img.home2 {
 	font-size: 1.6rem;
 }
 
-.entryButton-link.shop::after {
+.entryButton-link.shop:after {
 	background-image:url('https://domdak.github.io/jk25/icons/shop-white.svg')
 }
-.entryButton-link.shop:hover::after {
+.entryButton-link.shop:hover:after {
 	background-image:url('https://domdak.github.io/jk25/icons/shop-black.svg')
 }
 
@@ -570,7 +570,7 @@ a:hover {
 	margin-bottom: .5em;
 }
 
-.entryButton-link::after {
+.entryButton-link:after {
 	content: '';
 	width: 1.5em;
 	height: 1.5em;
@@ -579,7 +579,7 @@ a:hover {
 	background-repeat: no-repeat;
 	margin-left: 0.4em;
 }
-.sm.entryButton-link::after {
+.sm.entryButton-link:after {
 	margin-right: 0.6rem;
 }
 
@@ -587,24 +587,24 @@ a:hover {
 	text-decoration: none;
 }
 
-.entryButton-link.runner::after {
+.entryButton-link.runner:after {
 	background-image:url('https://domdak.github.io/jk25/icons/middle-white.svg')
 }
-.entryButton-link.runner:hover::after {
+.entryButton-link.runner:hover:after {
 	background-image:url('https://domdak.github.io/jk25/icons/sprint-black.svg')
 }
 
-.entryButton-link.edit::after {
+.entryButton-link.edit:after {
 	background-image:url('https://domdak.github.io/jk25/icons/edit-white.svg')
 }
-.entryButton-link.edit:hover::after {
+.entryButton-link.edit:hover:after {
 	background-image:url('https://domdak.github.io/jk25/icons/edit-black.svg')
 }
 
-.entryButton-link.list::after {
+.entryButton-link.list:after {
 	background-image:url('https://domdak.github.io/jk25/icons/list-white.svg')
 }
-.entryButton-link.list:hover::after {
+.entryButton-link.list:hover:after {
 	background-image:url('https://domdak.github.io/jk25/icons/list-black.svg')
 }
 
@@ -642,7 +642,7 @@ a:hover {
 	}
 }
 
-.jk-central::after {
+.jk-central:after {
 	content: '';
 	width: 100%;
 	display: block;
@@ -652,25 +652,25 @@ a:hover {
 }
 
 @media screen and (min-width: 1200px) {
-	.jk-central::after {
+	.jk-central:after {
 		background-image:url('https://domdak.github.io/jk25/footer/skyline-xl-dark.png');
 		height: 23.5772358vw;
 	}
 }
 @media screen and (max-width: 1200px) {
-	.jk-central::after {
+	.jk-central:after {
 		background-image:url('https://domdak.github.io/jk25/footer/skyline-lg-dark.png');
 		height: 27.943686vw;
 	}
 }
 @media screen and (max-width: 992px) {
-	.jk-central::after {
+	.jk-central:after {
 		background-image:url('https://domdak.github.io/jk25/footer/skyline-md-dark.png');
 		height: 64.0454761vw;
 	}
 }
 @media screen and (max-width: 576px) {
-	.jk-central::after {
+	.jk-central:after {
 		background-image:url('https://domdak.github.io/jk25/footer/skyline-sm-dark.png');
 		height: 79.5944233vw;
 	}
@@ -866,21 +866,21 @@ iframe.map {
 	}
 }
 
-.quoteBox::before, .quoteBox::after {
+.quoteBox:before, .quoteBox:after {
 	font-size: 4em;
 	font-family: "Patua One";
 	line-height: 0.1em;
 	position: relative;
 }
 
-.quoteBox.blue::before, .quoteBox.blue::after {
+.quoteBox.blue:before, .quoteBox.blue:after {
 	color: #4a95c0;
 }
-.quoteBox.yellow::before, .quoteBox.yellow::after {
+.quoteBox.yellow:before, .quoteBox.yellow:after {
 	color: #d7cc03;
 }
 
-.quoteBox::before {
+.quoteBox:before {
 	content: '“';
 	float: left;
 	padding-right: 0.2em;
@@ -905,7 +905,7 @@ iframe.map {
 	color: #666666;
 }
 
-.quoteBox::after {
+.quoteBox:after {
 	content: '”';
 	float: right;
 	bottom: 0.53em;
