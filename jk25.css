@@ -759,19 +759,35 @@ a.navbut:before {
 	vertical-align: top
 }
 a.google:before {
-	background-image: url('https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/google-map-icon.png');
+	background-image: url('https://domdak.github.io/jk25/icons/google.png');
 }
 a.apple:before {
-	background-image: url('https://www.apple.com/v/maps/d/images/overview/intro_icon__dfyvjc1ohbcm_large.png')
+	background-image: url('https://domdak.github.io/jk25/icons/apple.png')
 }
 a.waze:before {
-	background-image: url('https://play-lh.googleusercontent.com/r7XL36PVNtnidqy6ikRiW1AHEIsjhePrZ8W5M4cNTQy5ViF3-lIDY47hpvxc84kJ7lw')
+	background-image: url('https://domdak.github.io/jk25/icons/waze.png')
 }
 a.os:before {
-	background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS10Q0MEyIMTukoxT4Vj-A12DPchv2i2yK1PQ&s')
+	background-image: url('https://domdak.github.io/jk25/icons/os.png')
 }
 a.w3w:before {
-	background-image: url('https://play-lh.googleusercontent.com/lm3XAwAzng-kJ6zzFyY2NPta6f3I_OQAakxZmX7qoxkQZw7nWq9-BOcfqdizCil_h7k')
+	background-image: url('https://domdak.github.io/jk25/icons/w3w.png')
+}
+
+a.google:before:hover {
+	background-image: url('https://domdak.github.io/jk25/icons/google-blue.png');
+}
+a.apple:before:hover {
+	background-image: url('https://domdak.github.io/jk25/icons/apple-blue.png')
+}
+a.waze:before:hover {
+	background-image: url('https://domdak.github.io/jk25/icons/waze-blue.png')
+}
+a.os:before:hover {
+	background-image: url('https://domdak.github.io/jk25/icons/os-blue.png')
+}
+a.w3w:before:hover {
+	background-image: url('https://domdak.github.io/jk25/icons/w3w-blue.png')
 }
 
 
