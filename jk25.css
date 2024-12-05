@@ -729,13 +729,12 @@ a:hover {
 
 a.navbut {
 	border-radius: 1rem;
-	padding: 0.1rem 0.5rem;
-	padding-bottom: 0.2rem;
-	white-space: nowrap;					
+	padding: 0rem 0.5rem;
+	white-space: nowrap;
 	background-color: #fafafa;
 	border-color: #52afe6;
 	border-style: solid;
-	border-width: 1px;
+	border-width: 0.05rem;
 	margin-right: 0.5rem;
 }
 a.navbut:hover {
@@ -753,8 +752,8 @@ a.navbut:before {
 	content: '';
 	background-size: contain;
 	background-repeat: no-repeat;
-	width: 1.5rem;
-	height: 1.5rem;
+	width: 1.46rem;
+	height: 1.46rem;
 	display: inline-block;
 	margin-right: 0.2rem;
 	vertical-align: top
