@@ -759,7 +759,7 @@ a.navbut:before {
 	vertical-align: top
 }
 a.google:before {
-	background-image: url('https://domdak.github.io/jk25/icons/google-blue.png');
+	background-image: url('https://domdak.github.io/jk25/icons/gmaps-blue.png');
 }
 a.apple:before {
 	background-image: url('https://domdak.github.io/jk25/icons/apple-blue.png')
@@ -775,7 +775,7 @@ a.w3w:before {
 }
 
 a.google:hover:before {
-	background-image: url('https://domdak.github.io/jk25/icons/google.png');
+	background-image: url('https://domdak.github.io/jk25/icons/gmaps.png');
 }
 a.apple:hover:before {
 	background-image: url('https://domdak.github.io/jk25/icons/apple.png')
