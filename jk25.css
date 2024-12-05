@@ -759,35 +759,35 @@ a.navbut:before {
 	vertical-align: top
 }
 a.google:before {
-	background-image: url('https://domdak.github.io/jk25/icons/google.png');
+	background-image: url('https://domdak.github.io/jk25/icons/google-blue.png');
 }
 a.apple:before {
-	background-image: url('https://domdak.github.io/jk25/icons/apple.png')
+	background-image: url('https://domdak.github.io/jk25/icons/apple-blue.png')
 }
 a.waze:before {
-	background-image: url('https://domdak.github.io/jk25/icons/waze.png')
+	background-image: url('https://domdak.github.io/jk25/icons/waze-blue.png')
 }
 a.os:before {
-	background-image: url('https://domdak.github.io/jk25/icons/os.png')
+	background-image: url('https://domdak.github.io/jk25/icons/os-blue.png')
 }
 a.w3w:before {
-	background-image: url('https://domdak.github.io/jk25/icons/w3w.png')
+	background-image: url('https://domdak.github.io/jk25/icons/w3w-blue.png')
 }
 
 a.google:before:hover {
-	background-image: url('https://domdak.github.io/jk25/icons/google-blue.png');
+	background-image: url('https://domdak.github.io/jk25/icons/google.png');
 }
 a.apple:before:hover {
-	background-image: url('https://domdak.github.io/jk25/icons/apple-blue.png')
+	background-image: url('https://domdak.github.io/jk25/icons/apple.png')
 }
 a.waze:before:hover {
-	background-image: url('https://domdak.github.io/jk25/icons/waze-blue.png')
+	background-image: url('https://domdak.github.io/jk25/icons/waze.png')
 }
 a.os:before:hover {
-	background-image: url('https://domdak.github.io/jk25/icons/os-blue.png')
+	background-image: url('https://domdak.github.io/jk25/icons/os.png')
 }
 a.w3w:before:hover {
-	background-image: url('https://domdak.github.io/jk25/icons/w3w-blue.png')
+	background-image: url('https://domdak.github.io/jk25/icons/w3w.png')
 }
 
 
