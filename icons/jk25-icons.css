@@ -271,3 +271,38 @@ ul li:nth-child(11) .jk-menu-link:hover::before, ul li:nth-child(11).active .jk-
 	left: -9999rem;
 	opacity: 0;
 }
+.container::after {
+	content: url('https://domdak.github.io/jk25/icons/gmaps.png');
+	position: absolute;
+	top: -9999rem;
+	left: -9999rem;
+	opacity: 0;
+}
+.jk-central-container::after {
+	content: url('https://domdak.github.io/jk25/icons/apple.png');
+	position: absolute;
+	top: -9999rem;
+	left: -9999rem;
+	opacity: 0;
+}
+.row::after {
+	content: url('https://domdak.github.io/jk25/icons/waze.png');
+	position: absolute;
+	top: -9999rem;
+	left: -9999rem;
+	opacity: 0;
+}
+.col-lg-4::after {
+	content: url('https://domdak.github.io/jk25/icons/os.png');
+	position: absolute;
+	top: -9999rem;
+	left: -9999rem;
+	opacity: 0;
+}
+.col-lg-8::after {
+	content: url('https://domdak.github.io/jk25/icons/w3w.png');
+	position: absolute;
+	top: -9999rem;
+	left: -9999rem;
+	opacity: 0;
+}
