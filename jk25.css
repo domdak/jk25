@@ -774,19 +774,19 @@ a.w3w:before {
 	background-image: url('https://domdak.github.io/jk25/icons/w3w-blue.png')
 }
 
-a.google:before:hover {
+a.google:hover:before {
 	background-image: url('https://domdak.github.io/jk25/icons/google.png');
 }
-a.apple:before:hover {
+a.apple:hover:before {
 	background-image: url('https://domdak.github.io/jk25/icons/apple.png')
 }
-a.waze:before:hover {
+a.waze:hover:before {
 	background-image: url('https://domdak.github.io/jk25/icons/waze.png')
 }
-a.os:before:hover {
+a.os:hover:before {
 	background-image: url('https://domdak.github.io/jk25/icons/os.png')
 }
-a.w3w:before:hover {
+a.w3w:hover:before {
 	background-image: url('https://domdak.github.io/jk25/icons/w3w.png')
 }
 
