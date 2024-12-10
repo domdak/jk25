@@ -153,10 +153,11 @@ div .noULPad ul {
 		background-image:url('https://domdak.github.io/jk25/Panorama-lg.jpg');
 	}
 	div.mobileHead {
-		content-visibility: hidden;
 		visibility: hidden;
-		height: 0;
-		margin: 0;
+		content-visibility: hidden;
+		height: 0px !important;
+		padding: 0 !important;
+        margin: 0 !important;
 	}
 	div.desktopHead {
 		margin-top: 0.5rem
@@ -195,11 +196,6 @@ div .noULPad ul {
 	}
 	.jk-top {
 		background-image:url('https://domdak.github.io/jk25/Panorama-sm.jpg');
-	}
-	div.desktopHead {
-		visibility: hidden;
-		margin: 0;
-		height: 0;
 	}
 	.jk-top:hover:after {
 		font-size: 0.7em;
@@ -432,9 +428,12 @@ div .noULPad ul {
 		width: 100%;
 		max-width: 25rem;
 	}
-	div.fillerDesktop {
+	div.fillerDesktop, div.desktopHead {
 		visibility: hidden;
-		height: 0;
+		content-visibility: hidden;
+		height: 0px !important;
+		padding: 0 !important;
+        margin: 0 !important;
 	}
 }
 
