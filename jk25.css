@@ -897,6 +897,11 @@ div.oneSprint li, div.twoMiddle li, div.threeLong li {
 	margin-bottom: 0.25rem;
 }
 
+ul.leftalign li {
+	text-align: left;
+	margin-bottom: 0;
+}
+
 
 div.car, div.van, div.bike, div.public, div.oneSprint, div.twoMiddle, div.threeLong {
 	  display: grid;
