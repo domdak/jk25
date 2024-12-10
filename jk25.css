@@ -902,6 +902,10 @@ ul.leftalign li {
 	margin-bottom: 0;
 }
 
+li.leftalign {
+	text-align: left;
+}
+
 
 div.car, div.van, div.bike, div.public, div.oneSprint, div.twoMiddle, div.threeLong {
 	  display: grid;
