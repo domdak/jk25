@@ -894,6 +894,7 @@ div.oneSprint h3, div.twoMiddle h3, div.threeLong h3 {
 
 div.oneSprint li, div.twoMiddle li, div.threeLong li {
 	text-align: justify;
+	margin-bottom: 0.25rem;
 }
 
 
