@@ -3,7 +3,8 @@
 .merch.italics {
 	text-align: center;
 	font-style: italic;
-	margin-bottom: 0;	
+	margin-bottom: 0;
+	font-size: 0.9rem;
 }
 
 .jk-site-title, .jk-logo:before, .jk-logo:after, .jk-sm-dates, h1, h2, h3, h4, h5, h6 {
