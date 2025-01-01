@@ -1145,7 +1145,7 @@ div.infoPageHeader h1 {
 	}
 	.sponsor-img-box {
 		text-align: left;
-		display: block;
+		display: block !important;
 	}
 }
 
