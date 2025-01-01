@@ -1137,6 +1137,7 @@ div.infoPageHeader h1 {
 
 .sponsor-img {
 	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
 }
 
 @media screen and (max-width: 420px), screen and (min-width: 992px) {
