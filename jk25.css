@@ -1140,7 +1140,7 @@ div.infoPageHeader h1 {
 	margin-bottom: 0.5rem;
 }
 
-@media screen and (max-width: 420px), screen and (min-width: 992px) {
+@media screen and (max-width: 350px), screen and (min-width: 992px) {
 	.sponsor-img {
 		width: 100%;
 	}
@@ -1158,7 +1158,7 @@ div.infoPageHeader h1 {
 		width: 15rem;
 	}
 	.sponsor-img {
-		width: 25rem;
+		width: 20rem;
 	}
 	.square-img-box, .sponsor-img-box {
 		display: flex;
