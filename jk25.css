@@ -7,11 +7,11 @@
 	font-size: 0.9rem;
 }
 
-.left {
+.left p {
 	text-align: left !important;
 }
-.less-gap {
-	margin-bottom: 0.4rem !important;
+.less-gap p {
+	margin-bottom: 0.3rem !important;
 }
 
 .jk-site-title, .jk-logo:before, .jk-logo:after, .jk-sm-dates, h1, h2, h3, h4, h5, h6 {
