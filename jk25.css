@@ -7,6 +7,10 @@
 	font-size: 0.9rem;
 }
 
+.left {
+	text-align: left !important;
+}
+
 .jk-site-title, .jk-logo:before, .jk-logo:after, .jk-sm-dates, h1, h2, h3, h4, h5, h6 {
 	font-family: "Patua One", serif;
 }
