@@ -881,6 +881,12 @@ input[value="bike"]:before {
 input[value="bike"]:after {
 	background-image: url('https://domdak.github.io/jk25/icons/bike-white.svg');
 }
+input[value="foot"]:before {
+	content: "Walking";
+}
+input[value="foot"]:after {
+	background-image: url('https://domdak.github.io/jk25/icons/long-white.svg');
+}
 
 
 input[value="oneSprint"]:before {
