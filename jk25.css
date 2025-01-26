@@ -975,9 +975,6 @@ iframe.map {
 	div.introPara {
 		text-align: justify;
 	}
-	div.car, div.van, div.bike, div.public {
-		margin-right: 33.3%;
-	}
 }
 
 .quoteBox:before, .quoteBox:after {
