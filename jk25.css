@@ -928,18 +928,19 @@ li.leftalign {
 }
 
 
-div.car, div.van, div.bike, div.public, div.oneSprint, div.twoMiddle, div.threeLong {
+div.car, div.foot, div.van, div.bike, div.public, div.oneSprint, div.twoMiddle, div.threeLong {
 	  display: grid;
   grid-template-rows: 0fr;
   transition: grid-template-rows 0.3s ease-out;
 }
 
-div.car div, div.van div, div.bike div, div.public div, 
+div.car div, div.foot div, div.van div, div.bike div, div.public div, 
 div.oneSprint div, div.twoMiddle div, div.threeLong div {
 	overflow: hidden;
 }
 
 input[value="bike"]:checked ~ div.bike,
+input[value="foot"]:checked ~ div.foot,
 input[value="car"]:checked ~ div.car,
 input[value="public"]:checked ~ div.public,
 input[value="van"]:checked ~ div.van,
