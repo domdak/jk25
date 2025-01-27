@@ -1282,6 +1282,10 @@ Options: .jk-table (blue)
 	min-width: 5em;
 }
 
+.jktable.courses td:nth-child(2) {
+	min-width: 10em;
+}
+
 .jk-table.yellow  thead tr {
     color: black;
 	background-color: #fff200;
