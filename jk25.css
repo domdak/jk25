@@ -1211,6 +1211,10 @@ Options: .jk-table (blue)
 .jk-table yellow (as above, but yellow)
 .jk-table-no-border (nothing at all, no style)   */
 
+.jktable.courses {
+	text-align: center;
+}
+
 .jk-table {
     border-spacing: 0;
     font-size: 0.8em;
