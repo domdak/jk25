@@ -1273,6 +1273,7 @@ Options: .jk-table (blue)
     border-bottom: 2px solid #52afe6;
 }
 
+
 .jk-table tbody tr:hover {
     color: #4a95c0;
 	text-shadow: #2d5b7578 0 0 2em;
