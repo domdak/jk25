@@ -1282,7 +1282,7 @@ Options: .jk-table (blue)
 	min-width: 5em;
 }
 
-.jktable.courses td:nth-child(2) {
+.jktable.courses td:nth-child(2), .jktable.courses tr:nth-child(2) {
 	min-width: 10em;
 }
 
