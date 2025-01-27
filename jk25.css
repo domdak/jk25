@@ -1211,8 +1211,8 @@ Options: .jk-table (blue)
 .jk-table yellow (as above, but yellow)
 .jk-table-no-border (nothing at all, no style)   */
 
-.jk-table.courses {
-	text-align: center;
+.jk-table.courses, .jk-table.courses th {
+	text-align: center !important;
 }
 
 .jk-table {
