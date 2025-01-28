@@ -1313,7 +1313,7 @@ Options: .jk-table (blue)
     padding: 0.25rem 0;
 }
 .jk-table-no-border.schedule td:first-child {
-    padding-right: 1rem;
+    padding-right: 1.5rem;
 }
 .jk-table-no-border.schedule tr:not(:last-child) {
     border-bottom: 1px solid #ccc;
