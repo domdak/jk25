@@ -49,7 +49,7 @@ ul li:nth-child(13) .jk-menu-link::before {
 	background-image:url('https://domdak.github.io/jk25/icons/info-white.svg');
 }
 ul li:nth-child(14) .jk-menu-link::before {
-	background-image:url('https://domdak.github.io/jk25/icons/pets-white.svg');
+	background-image:url('https://domdak.github.io/jk25/icons/sponsor-white.svg');
 }
 ul li:nth-child(15) .jk-menu-link::before {
 	background-image:url('https://domdak.github.io/jk25/icons/hotel-white.svg');
@@ -107,7 +107,7 @@ ul li:nth-child(13) .jk-menu-link:hover::before, ul li:nth-child(13).active .jk-
 	background-image:url('https://domdak.github.io/jk25/icons/info-black.svg');
 }
 ul li:nth-child(14) .jk-menu-link:hover::before, ul li:nth-child(14).active .jk-menu-link::before {
-	background-image:url('https://domdak.github.io/jk25/icons/pets-black.svg');
+	background-image:url('https://domdak.github.io/jk25/icons/sponsor-black.svg');
 }
 ul li:nth-child(15) .jk-menu-link:hover::before, ul li:nth-child(15).active .jk-menu-link::before {
 	background-image:url('https://domdak.github.io/jk25/icons/hotel-black.svg');
@@ -174,7 +174,7 @@ ul li:nth-child(11) .jk-menu-link:hover::before, ul li:nth-child(11).active .jk-
 	opacity: 0;
 }
 .col-lg-4::before {
-	content: url('https://domdak.github.io/jk25/icons/pets-black.svg');
+	content: url('https://domdak.github.io/jk25/icons/sponsor-black.svg');
 	position: absolute;
 	top: -9999rem;
 	left: -9999rem;
