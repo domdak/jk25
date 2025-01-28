@@ -1039,6 +1039,16 @@ iframe.map {
 	font-size: 0.9rem;
 }
 
+@media screen and (max-width: 992px) {
+	.highlight-center-box {
+		display: flex;
+		justify-content: center;
+	}
+	.highlight-center-box h3 {
+		text-align: center;
+	}
+}
+
 .officials.grey, .quoteBox.grey, .highlight.grey {
 	background-color: #fafafa;
 	box-shadow: 2px 2px 2px 0 #ccc;
