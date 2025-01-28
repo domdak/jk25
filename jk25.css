@@ -1035,6 +1035,10 @@ iframe.map {
 	margin-bottom: 2em;
 }
 
+.officials p {
+	font-size: 0.9rem;
+}
+
 .officials.grey, .quoteBox.grey, .highlight.grey {
 	background-color: #fafafa;
 	box-shadow: 2px 2px 2px 0 #ccc;
