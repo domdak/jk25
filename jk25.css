@@ -1215,7 +1215,7 @@ Options: .jk-table (blue)
 	text-align: center !important;
 }
 
-.jk-table {
+.jk-table, .jk-table-no-border {
     border-spacing: 0;
     font-size: 0.8em;
     min-width: 50%;
@@ -1309,10 +1309,10 @@ Options: .jk-table (blue)
     padding: 0.25rem 0.5rem;
 }
 
-.jk-table.schedule th, .jk-table.schedule td {
+.jk-table-no-border.schedule th, .jk-table-no-border.schedule td {
     padding: 0.25rem 0;
 }
-.jk-table.schedule tr:not(:last-child) {
+.jk-table-no-border.schedule tr:not(:last-child) {
     border-bottom: 1px solid #ccc;
 }
 
