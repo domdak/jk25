@@ -1309,8 +1309,11 @@ Options: .jk-table (blue)
     padding: 0.25rem 0.5rem;
 }
 
-.jk-table-no-border.schedule th, .jk-table-no-border.schedule td {
+.jk-table-no-border.schedule td {
     padding: 0.25rem 0;
+}
+.jk-table-no-border.schedule td:first-child {
+    padding-right: 1rem;
 }
 .jk-table-no-border.schedule tr:not(:last-child) {
     border-bottom: 1px solid #ccc;
