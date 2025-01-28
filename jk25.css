@@ -1309,6 +1309,13 @@ Options: .jk-table (blue)
     padding: 0.25rem 0.5rem;
 }
 
+.jk-table.schedule th, .jk-table.schedule td {
+    padding: 0.25rem 0;
+}
+.jk-table.schedule tr:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+}
+
 .entryTable {
 	text-align: center;
 	width: 100%;
@@ -1360,4 +1367,6 @@ Options: .jk-table (blue)
 .entryTable  th:nth-child(1) {
 	border-radius: 1em 1em 0 0;
 }
+
+
 
