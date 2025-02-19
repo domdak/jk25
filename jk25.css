@@ -1260,11 +1260,11 @@ Options: .jk-table (blue)
 	background-color: #52afe6;
 }
 
-.jk-table thead :first-child {
+.jk-table thead tr:first-child th:first-child {
 	border-top-left-radius: .8em;
 }
 
-.jk-table thead :last-child {
+.jk-table thead tr:first-child th:last-child {
 	border-top-right-radius: .8em;
 }
 
