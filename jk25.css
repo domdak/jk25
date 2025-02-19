@@ -1291,7 +1291,7 @@ Options: .jk-table (blue)
 .relay tbody td:nth-child(2),
 .relay tbody td:nth-child(5),
 .relay tbody td:nth-child(8) {
-    border-right: 2px solid #52afe6;
+    border-right: 1.5px solid #52afe6;
 }
 
 .jk-table tbody tr:hover {
