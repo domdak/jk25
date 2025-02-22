@@ -85,14 +85,6 @@ div .noULPad ul {
 	top: 0.5em;
 }
 
-.paul-img:hover:after {
-	content: "© Paul Johnson (SYO)";
-	color: white;
-	position: absolute;
-	right: 1em;
-	top: 0.5em;
-}
-
 .homeWelcomePara {
 	padding-top: .5rem;
 	padding-bottom: 2rem;
