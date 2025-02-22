@@ -1181,6 +1181,10 @@ div.infoPageHeader h1 {
 	text-align: center;
 }
 
+.center h1 {
+	margin-bottom: 2rem;
+}
+
 @media screen and (max-width: 992px) {
 	.square-img {
 		width: 15rem;
