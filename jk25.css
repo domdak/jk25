@@ -1200,6 +1200,7 @@ div.infoPageHeader h1 {
 		align-items: center;
 		flex-direction: column;
 		padding-bottom: 1rem;
+		padding-top: 0;
 	}
 	.homeGrid {
 		height: auto;
