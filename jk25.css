@@ -719,8 +719,8 @@ a:hover {
 
 @media screen and (max-width: 992px) {
     .row.original { display: flex; flex-flow: column; }
-    .col-lg-4.original.flip, .col-lg-3.original.flip, .col-lg-5.original.flip { order: 0; }
-	.col-lg-8.original.flip, .col-lg-9.original.flip, .col-lg-7.original.flip { order: 1; }
+    .col-lg-4.original.flip, .col-lg-3.original.flip, .col-lg-5.flip { order: 0; }
+	.col-lg-8.original.flip, .col-lg-9.original.flip, .col-lg-7.flip { order: 1; }
 	.officials {min-width:50%}
 }
 
