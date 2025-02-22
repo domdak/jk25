@@ -1177,10 +1177,11 @@ div.infoPageHeader h1 {
 	}
 }
 
+.center {
+	text-align: center;
+}
+
 @media screen and (max-width: 992px) {
-	.center {
-		text-align: center;
-	}
 	.square-img {
 		width: 15rem;
 	}
