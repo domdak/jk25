@@ -1185,6 +1185,9 @@ div.infoPageHeader h1 {
 	.square-img {
 		width: 15rem;
 	}
+	.square-img.lg {
+		width: 25rem;
+	}
 	.sponsor-img {
 		width: 20rem;
 	}
