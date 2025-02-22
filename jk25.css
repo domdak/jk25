@@ -1049,13 +1049,13 @@ iframe.map {
 	}
 }
 
-.officials.grey, .quoteBox.grey, .highlight.grey, .quoteBox.blue {
+.officials.grey, .quoteBox.grey, .highlight.grey {
 	background-color: #fafafa;
 	box-shadow: 2px 2px 2px 0 #ccc;
 	border: 1px solid #ccc;
 }
 
-.officials.blue, .highlight.blue {
+.officials.blue, .highlight.blue, .quoteBox.blue {
 	background-color: #ecf8ff;
     box-shadow: 2px 2px 2px 0 #4a95c0;
 	border: 1px solid #4a95c0;
