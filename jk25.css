@@ -864,13 +864,16 @@ input[type="radio"]:after {
 }
 
 input[value="car"]:before {
-	content: "Car";
+	content: "Cars";
 }
-input[value="car"]:after {
+input[value="carcamp"]:before {
+	content: "Cars & Campervans";
+}
+input[value="car"]:after, input[value="carcamp"]:after {
 	background-image: url('https://domdak.github.io/jk25/icons/car-white.svg');
 }
 input[value="van"]:before {
-	content: "Campervan";
+	content: "Campervans";
 }
 input[value="van"]:after {
 	background-image: url('https://domdak.github.io/jk25/icons/van-white.svg');
@@ -882,7 +885,7 @@ input[value="public"]:after {
 	background-image: url('https://domdak.github.io/jk25/icons/train-white.svg');
 }
 input[value="bike"]:before {
-	content: "Bike"
+	content: "Bikes"
 }
 input[value="bike"]:after {
 	background-image: url('https://domdak.github.io/jk25/icons/bike-white.svg');
@@ -934,13 +937,13 @@ li.leftalign {
 }
 
 
-div.car, div.foot, div.van, div.bike, div.public, div.oneSprint, div.twoMiddle, div.threeLong {
+div.car, div.carcamp, div.foot, div.van, div.bike, div.public, div.oneSprint, div.twoMiddle, div.threeLong {
 	  display: grid;
   grid-template-rows: 0fr;
   transition: grid-template-rows 0.3s ease-out;
 }
 
-div.car div, div.foot div, div.van div, div.bike div, div.public div, 
+div.car div, div.carcamp div, div.foot div, div.van div, div.bike div, div.public div, 
 div.oneSprint div, div.twoMiddle div, div.threeLong div {
 	overflow: hidden;
 }
@@ -948,6 +951,7 @@ div.oneSprint div, div.twoMiddle div, div.threeLong div {
 input[value="bike"]:checked ~ div.bike,
 input[value="foot"]:checked ~ div.foot,
 input[value="car"]:checked ~ div.car,
+input[value="carcamp"]:checked ~ div.carcamp,
 input[value="public"]:checked ~ div.public,
 input[value="van"]:checked ~ div.van,
 input[value="oneSprint"]:checked ~ div.oneSprint,
