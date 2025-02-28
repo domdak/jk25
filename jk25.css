@@ -1399,7 +1399,7 @@ Options: .jk-table (blue)
 	padding-bottom: 0;
 }
 
-.entryTable td:nth-child(2), .entryTable th:nth-child(2) {
+.entryTable td:nth-child(3), .entryTable th:nth-child(3) {
 	background: #ecf8ff;
 }
 .entryTable  tr:nth-child(12) td:nth-child(1) {
