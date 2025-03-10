@@ -869,6 +869,12 @@ input[value="car"]:before {
 input[value="carcamp"]:before {
 	content: "Cars & Campervans";
 }
+input[value="disabled"]:before {
+	content: "Disabled & Helpers";
+}
+input[value="disabled"]:after {
+	background-image: url('https://domdak.github.io/jk25/icons/disabled-white.svg');
+}
 input[value="car"]:after, input[value="carcamp"]:after {
 	background-image: url('https://domdak.github.io/jk25/icons/car-white.svg');
 }
@@ -944,11 +950,12 @@ div.car, div.carcamp, div.foot, div.van, div.bike, div.public, div.oneSprint, di
 }
 
 div.car div, div.carcamp div, div.foot div, div.van div, div.bike div, div.public div, 
-div.oneSprint div, div.twoMiddle div, div.threeLong div {
+div.oneSprint div, div.twoMiddle div, div.threeLong div, div.disabled div {
 	overflow: hidden;
 }
 
 input[value="bike"]:checked ~ div.bike,
+input[value="disabled"]:checked ~ div.disabled,
 input[value="foot"]:checked ~ div.foot,
 input[value="car"]:checked ~ div.car,
 input[value="carcamp"]:checked ~ div.carcamp,
