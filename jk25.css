@@ -944,7 +944,7 @@ li.leftalign {
 }
 
 
-div.car, div.carcamp, div.foot, div.van, div.bike, div.public, div.oneSprint, div.twoMiddle, div.threeLong {
+div.car, div.disabled, div.carcamp, div.foot, div.van, div.bike, div.public, div.oneSprint, div.twoMiddle, div.threeLong {
 	  display: grid;
   grid-template-rows: 0fr;
   transition: grid-template-rows 0.3s ease-out;
