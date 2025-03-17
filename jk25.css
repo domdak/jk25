@@ -4,7 +4,7 @@
 	padding-top: 0 !important;
 }
 
-.noPadTop {
+.noPadTop !important {
 	padding-top: 0;
 }
 .noPadTop img {
