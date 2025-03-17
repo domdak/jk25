@@ -717,6 +717,14 @@ a:hover {
 	padding-top: 1.5em;
 }
 
+.col-lg-4.originalNoTop {
+	flex: 0 0 33.333333%;
+}
+
+.originalNoTop img {
+	width: 100%;
+}
+
 .col-lg-8.original {
 	flex: 0 0 66.666667%;
 }
@@ -1414,17 +1422,6 @@ Options: .jk-table (blue)
 }
 .entryTable  th:nth-child(1) {
 	border-radius: 1em 1em 0 0;
-}
-
-
-
-
-
-.noPadTop !important {
-	padding-top: 0;
-}
-.noPadTop img {
-	width: 100%;
 }
 
 
