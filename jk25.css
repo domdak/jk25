@@ -4,13 +4,6 @@
 	padding-top: 0 !important;
 }
 
-.noPadTop !important {
-	padding-top: 0;
-}
-.noPadTop img {
-	width: 100%;
-}
-
 .italics {
 	text-align: center;
 	font-style: italic;
@@ -1421,6 +1414,17 @@ Options: .jk-table (blue)
 }
 .entryTable  th:nth-child(1) {
 	border-radius: 1em 1em 0 0;
+}
+
+
+
+
+
+.noPadTop !important {
+	padding-top: 0;
+}
+.noPadTop img {
+	width: 100%;
 }
 
 
