@@ -4,6 +4,12 @@
 	padding-top: 0 !important;
 }
 
+.noPadTop {
+	padding-top: 0;
+}
+.noPadTop img {
+	width: 100%;
+}
 
 .italics {
 	text-align: center;
