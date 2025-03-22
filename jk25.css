@@ -4,6 +4,41 @@
 	padding-top: 0 !important;
 }
 
+.paul-img-credit {
+    position: relative;
+    display: inline-block;
+}
+
+.paul-img-credit img {
+    display: block; /* Removes unwanted spacing below the image */
+    width: 100%; /* Ensure it scales properly */
+    height: auto;
+}
+
+.paul-img-credit::after {
+    content: "Artwork by Paul Johnson (SYO)";
+    position: absolute;
+    bottom: 1.4rem;
+    right: 0.4rem;
+    color: white;
+    font-size: 0.7rem;
+    padding: 2px 5px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none; /* Prevents it from blocking clicks */
+}
+
+@media screen and (min-width: 992px) {
+	.paul-img-credit::after {
+    		bottom: 0.3rem;
+		font-size: 0.6rem;
+	}
+}
+
+.paul-img-credit:hover::after {
+    opacity: 1;
+}
+
 .italics {
 	text-align: center;
 	font-style: italic;
