@@ -1376,8 +1376,10 @@ Options: .jk-table (blue)
 	min-width: 10em;
 }
 
-.jk-table.courses td {
-	max-width: 11rem;
+@media screen and (min-width: 992px) {
+	.jk-table.courses {
+		max-width: 99%;
+	}
 }
 
 .jk-table.yellow  thead tr {
