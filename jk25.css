@@ -916,7 +916,7 @@ input[value="carcamp"]:before {
 input[value="disabled"]:before {
 	content: "Disabled & Helpers";
 }
-input[value="4x4"]:before {
+input[value="four"]:before {
 	content: "4x4s";
 }
 input[value="disabled"]:after {
@@ -925,7 +925,7 @@ input[value="disabled"]:after {
 input[value="car"]:after, input[value="carcamp"]:after {
 	background-image: url('https://domdak.github.io/jk25/icons/car-white.svg');
 }
-input[value="4x4"]:after {
+input[value="four"]:after {
 	background-image: url('https://domdak.github.io/jk25/icons/4x4-white.svg');
 }
 input[value="van"]:before {
@@ -993,14 +993,14 @@ li.leftalign {
 }
 
 
-div.car, div.disabled, div.carcamp, div.4x4, div.foot, div.van, div.bike, div.public, div.oneSprint, div.twoMiddle, div.threeLong {
+div.car, div.disabled, div.carcamp, div.four, div.foot, div.van, div.bike, div.public, div.oneSprint, div.twoMiddle, div.threeLong {
 	  display: grid;
   grid-template-rows: 0fr;
   transition: grid-template-rows 0.3s ease-out;
 }
 
 div.car div, div.carcamp div, div.foot div, div.van div, div.bike div, div.public div, 
-div.oneSprint div, div.twoMiddle div, div.threeLong div, div.disabled div, div.4x4 div {
+div.oneSprint div, div.twoMiddle div, div.threeLong div, div.disabled div, div.four div {
 	overflow: hidden;
 }
 
@@ -1009,7 +1009,7 @@ input[value="disabled"]:checked ~ div.disabled,
 input[value="foot"]:checked ~ div.foot,
 input[value="car"]:checked ~ div.car,
 input[value="carcamp"]:checked ~ div.carcamp,
-input[value="4x4"]:checked ~ div.4x4,
+input[value="four"]:checked ~ div.four,
 input[value="public"]:checked ~ div.public,
 input[value="van"]:checked ~ div.van,
 input[value="oneSprint"]:checked ~ div.oneSprint,
