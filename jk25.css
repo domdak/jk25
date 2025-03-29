@@ -1463,7 +1463,7 @@ Options: .jk-table (blue)
 	padding-bottom: 0;
 }
 
-.entryTable td:nth-child(3), .entryTable th:nth-child(3) {
+.entryTable td:nth-child(4), .entryTable th:nth-child(4) {
 	background: #ecf8ff;
 }
 .entryTable  tr:nth-child(12) td:nth-child(1) {
