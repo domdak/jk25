@@ -917,7 +917,7 @@ input[value="disabled"]:before {
 	content: "Disabled & Helpers";
 }
 input[value="four"]:before {
-	content: "4x4s";
+	content: "4x4s & Priority";
 }
 input[value="disabled"]:after {
 	background-image: url('https://domdak.github.io/jk25/icons/disabled-white.svg');
