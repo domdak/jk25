@@ -1366,7 +1366,10 @@ Options: .jk-table (blue)
 
 .relay tbody td:nth-child(2),
 .relay tbody td:nth-child(5),
-.relay tbody td:nth-child(8) {
+.relay tbody td:nth-child(8),
+.wre-table tbody td:nth-child(1),
+.wre-table tbody td:nth-child(3),
+.wre-table tbody td:nth-child(5) {
     border-right: 1.5px solid #52afe6;
 }
 
