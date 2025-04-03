@@ -492,7 +492,7 @@ div .noULPad ul {
 	}
 }
 
-.rainbow h1 a {
+.rainbow a {
 	animation: colorchange 5s infinite alternate;
 	pointer-events: none;
 }
