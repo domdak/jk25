@@ -15,114 +15,112 @@ ul li:nth-child(1) .jk-menu-link::before {
 ul li:nth-child(2) .jk-menu-link::before {
 	background-image:url('https://domdak.github.io/jk25/icons/news-white.svg');
 }
-ul li:nth-child(3) .jk-menu-link::before {
+ul li:nth-child(12) .jk-menu-link::before {
 	background-image:url('https://domdak.github.io/jk25/icons/enter-white.svg');
 }
-ul li:nth-child(4) .jk-menu-link::before {
+ul li:nth-child(13) .jk-menu-link::before {
 	background-image:url('https://domdak.github.io/jk25/icons/merch-white.svg');
 }
-ul li:nth-child(5) .jk-menu-link::before {
+ul li:nth-child(14) .jk-menu-link::before {
 	background-image:url('https://domdak.github.io/jk25/icons/help-white.svg');
 }
-ul li:nth-child(6) .jk-menu-link::before {
+ul li:nth-child(5) .jk-menu-link::before {
 	background-image:url('https://domdak.github.io/jk25/icons/sprint-white.svg');
 }
-ul li:nth-child(7) .jk-menu-link::before {
+ul li:nth-child(6) .jk-menu-link::before {
 	background-image:url('https://domdak.github.io/jk25/icons/middle-white.svg');
 }
-ul li:nth-child(8) .jk-menu-link::before {
+ul li:nth-child(7) .jk-menu-link::before {
 	background-image:url('https://domdak.github.io/jk25/icons/long-white.svg');
 }
-ul li:nth-child(9) .jk-menu-link::before {
+ul li:nth-child(8) .jk-menu-link::before {
 	background-image:url('https://domdak.github.io/jk25/icons/relay-white.svg');
 }
-ul li:nth-child(10) .jk-menu-link::before {
+ul li:nth-child(9) .jk-menu-link::before {
 	background-image:url('https://domdak.github.io/jk25/icons/trailo-white.svg');
 }
 ul li:nth-child(11) .jk-menu-link::before {
 	background-image:url('https://domdak.github.io/jk25/icons/wre-white.svg');
 }
-ul li:nth-child(12) .jk-menu-link::before {
+ul li:nth-child(4) .jk-menu-link::before {
 	background-image:url('https://domdak.github.io/jk25/icons/fun-white.svg');
 }
-ul li:nth-child(13) .jk-menu-link::before {
+ul li:nth-child(3) .jk-menu-link::before {
 	background-image:url('https://domdak.github.io/jk25/icons/info-white.svg');
 }
-ul li:nth-child(14) .jk-menu-link::before {
+ul li:nth-child(15) .jk-menu-link::before {
 	background-image:url('https://domdak.github.io/jk25/icons/sponsor-white.svg');
 }
-ul li:nth-child(15) .jk-menu-link::before {
+ul li:nth-child(17) .jk-menu-link::before {
 	background-image:url('https://domdak.github.io/jk25/icons/hotel-white.svg');
 }
 ul li:nth-child(16) .jk-menu-link::before {
 	background-image:url('https://domdak.github.io/jk25/icons/attractions-white.svg');
 }
-ul li:nth-child(17) .jk-menu-link::before {
+ul li:nth-child(18) .jk-menu-link::before {
 	background-image:url('https://domdak.github.io/jk25/icons/contact-white.svg');
 }
-/*
-ul li:nth-child(11) .jk-menu-link::before {
+ul li:nth-child(10) .jk-menu-link::before {
 	background-image:url('https://domdak.github.io/jk25/icons/results-white.svg');
 }
-*/
+
 
 
 ul li:nth-child(1) .jk-menu-link:hover::before, ul li:nth-child(1).active .jk-menu-link::before {
-	background-image:url('https://domdak.github.io/jk25/icons/home-black.svg');
+	background-image: url('https://domdak.github.io/jk25/icons/home-black.svg');
 }
 ul li:nth-child(2) .jk-menu-link:hover::before, ul li:nth-child(2).active .jk-menu-link::before {
-	background-image:url('https://domdak.github.io/jk25/icons/news-black.svg');
+	background-image: url('https://domdak.github.io/jk25/icons/news-black.svg');
 }
 ul li:nth-child(3) .jk-menu-link:hover::before, ul li:nth-child(3).active .jk-menu-link::before {
-	background-image:url('https://domdak.github.io/jk25/icons/enter-black.svg');
+	background-image: url('https://domdak.github.io/jk25/icons/info-black.svg');
 }
 ul li:nth-child(4) .jk-menu-link:hover::before, ul li:nth-child(4).active .jk-menu-link::before {
-	background-image:url('https://domdak.github.io/jk25/icons/merch-black.svg');
+	background-image: url('https://domdak.github.io/jk25/icons/fun-black.svg');
 }
 ul li:nth-child(5) .jk-menu-link:hover::before, ul li:nth-child(5).active .jk-menu-link::before {
-	background-image:url('https://domdak.github.io/jk25/icons/help-black.svg');
+	background-image: url('https://domdak.github.io/jk25/icons/sprint-black.svg');
 }
 ul li:nth-child(6) .jk-menu-link:hover::before, ul li:nth-child(6).active .jk-menu-link::before {
-	background-image:url('https://domdak.github.io/jk25/icons/sprint-black.svg');
+	background-image: url('https://domdak.github.io/jk25/icons/middle-black.svg');
 }
 ul li:nth-child(7) .jk-menu-link:hover::before, ul li:nth-child(7).active .jk-menu-link::before {
-	background-image:url('https://domdak.github.io/jk25/icons/middle-black.svg');
+	background-image: url('https://domdak.github.io/jk25/icons/long-black.svg');
 }
 ul li:nth-child(8) .jk-menu-link:hover::before, ul li:nth-child(8).active .jk-menu-link::before {
-	background-image:url('https://domdak.github.io/jk25/icons/long-black.svg');
+	background-image: url('https://domdak.github.io/jk25/icons/relay-black.svg');
 }
 ul li:nth-child(9) .jk-menu-link:hover::before, ul li:nth-child(9).active .jk-menu-link::before {
-	background-image:url('https://domdak.github.io/jk25/icons/relay-black.svg');
+	background-image: url('https://domdak.github.io/jk25/icons/trailo-black.svg');
 }
 ul li:nth-child(10) .jk-menu-link:hover::before, ul li:nth-child(10).active .jk-menu-link::before {
-	background-image:url('https://domdak.github.io/jk25/icons/trailo-black.svg');
+	background-image: url('https://domdak.github.io/jk25/icons/results-black.svg');
 }
 ul li:nth-child(11) .jk-menu-link:hover::before, ul li:nth-child(11).active .jk-menu-link::before {
-	background-image:url('https://domdak.github.io/jk25/icons/wre-black.svg');
+	background-image: url('https://domdak.github.io/jk25/icons/wre-black.svg');
 }
 ul li:nth-child(12) .jk-menu-link:hover::before, ul li:nth-child(12).active .jk-menu-link::before {
-	background-image:url('https://domdak.github.io/jk25/icons/fun-black.svg');
+	background-image: url('https://domdak.github.io/jk25/icons/enter-black.svg');
 }
 ul li:nth-child(13) .jk-menu-link:hover::before, ul li:nth-child(13).active .jk-menu-link::before {
-	background-image:url('https://domdak.github.io/jk25/icons/info-black.svg');
+	background-image: url('https://domdak.github.io/jk25/icons/merch-black.svg');
 }
 ul li:nth-child(14) .jk-menu-link:hover::before, ul li:nth-child(14).active .jk-menu-link::before {
-	background-image:url('https://domdak.github.io/jk25/icons/sponsor-black.svg');
+	background-image: url('https://domdak.github.io/jk25/icons/help-black.svg');
 }
 ul li:nth-child(15) .jk-menu-link:hover::before, ul li:nth-child(15).active .jk-menu-link::before {
-	background-image:url('https://domdak.github.io/jk25/icons/hotel-black.svg');
+	background-image: url('https://domdak.github.io/jk25/icons/sponsor-black.svg');
 }
 ul li:nth-child(16) .jk-menu-link:hover::before, ul li:nth-child(16).active .jk-menu-link::before {
-	background-image:url('https://domdak.github.io/jk25/icons/attractions-black.svg');
+	background-image: url('https://domdak.github.io/jk25/icons/attractions-black.svg');
 }
 ul li:nth-child(17) .jk-menu-link:hover::before, ul li:nth-child(17).active .jk-menu-link::before {
-	background-image:url('https://domdak.github.io/jk25/icons/contact-black.svg');
+	background-image: url('https://domdak.github.io/jk25/icons/hotel-black.svg');
 }
-/*
-ul li:nth-child(11) .jk-menu-link:hover::before, ul li:nth-child(11).active .jk-menu-link::before {
-	background-image:url('https://domdak.github.io/jk25/icons/results-black.svg');
+ul li:nth-child(18) .jk-menu-link:hover::before, ul li:nth-child(18).active .jk-menu-link::before {
+	background-image: url('https://domdak.github.io/jk25/icons/contact-black.svg');
 }
-*/
+
 
 .jk-outer::before {
 	content: url('https://domdak.github.io/jk25/icons/home-black.svg');
