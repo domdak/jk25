@@ -60,10 +60,10 @@ ul li:nth-child(16) .jk-menu-link::before {
 ul li:nth-child(17) .jk-menu-link::before {
 	background-image:url('https://domdak.github.io/jk25/icons/attractions-white.svg');
 }
-ul li:nth-child(18) .jk-menu-link::before {
+ul li:nth-child(20) .jk-menu-link::before {
 	background-image:url('https://domdak.github.io/jk25/icons/hotel-white.svg');
 }
-ul li:nth-child(19) .jk-menu-link::before {
+ul li:nth-child(18) .jk-menu-link::before {
 	background-image:url('https://domdak.github.io/jk25/icons/contact-white.svg');
 }
 
@@ -137,12 +137,12 @@ ul li:nth-child(17) .jk-menu-link:hover::before,
 ul li:nth-child(17).active .jk-menu-link::before {
 	background-image:url('https://domdak.github.io/jk25/icons/attractions-black.svg');
 }
-ul li:nth-child(18) .jk-menu-link:hover::before,
-ul li:nth-child(18).active .jk-menu-link::before {
+ul li:nth-child(20) .jk-menu-link:hover::before,
+ul li:nth-child(20).active .jk-menu-link::before {
 	background-image:url('https://domdak.github.io/jk25/icons/hotel-black.svg');
 }
-ul li:nth-child(19) .jk-menu-link:hover::before,
-ul li:nth-child(19).active .jk-menu-link::before {
+ul li:nth-child(18) .jk-menu-link:hover::before,
+ul li:nth-child(18).active .jk-menu-link::before {
 	background-image:url('https://domdak.github.io/jk25/icons/contact-black.svg');
 }
 
