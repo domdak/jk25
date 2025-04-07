@@ -1372,7 +1372,8 @@ Options: .jk-table (blue)
 .wre-table tbody td:nth-child(5),
 .summary-table tbody td:nth-child(3),
 .summary-table tbody td:nth-child(9),
-.summary-table tbody td:nth-child(15)
+.summary-table tbody td:nth-child(10),
+.summary-table tbody td:nth-child(16)
 {
     border-right: 1.5px solid #52afe6;
 }
