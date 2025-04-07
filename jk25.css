@@ -1369,7 +1369,11 @@ Options: .jk-table (blue)
 .relay tbody td:nth-child(8),
 .wre-table tbody td:nth-child(1),
 .wre-table tbody td:nth-child(3),
-.wre-table tbody td:nth-child(5) {
+.wre-table tbody td:nth-child(5),
+.summary-table tbody td:nth-child(3),
+.summary-table tbody td:nth-child(9),
+.summary-table tbody td:nth-child(15)
+{
     border-right: 1.5px solid #52afe6;
 }
 
