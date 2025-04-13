@@ -4,7 +4,7 @@
 	padding-top: 0 !important;
 }
 
-.dynamicText b, .dynamicText em {
+.dynamicText strong, .dynamicText em {
 	text-decoration: none !important;
 	font-weight: normal !important;
 	font-style: normal !important;
@@ -490,7 +490,7 @@ div .noULPad ul {
 		width: 100%;
 		max-width: 25rem;
 	}
-	div.fillerDesktop, div.desktopHead, .dynamicText b {
+	div.fillerDesktop, div.desktopHead, .dynamicText strong {
 		visibility: hidden;
 		content-visibility: hidden;
 		height: 0px !important;
