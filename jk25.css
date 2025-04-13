@@ -4,6 +4,9 @@
 	padding-top: 0 !important;
 }
 
+.dynamicText b, .dynamicText em {
+	text-decoration: none;
+
 .paul-img-credit {
     position: relative;
     display: inline-block;
@@ -206,7 +209,7 @@ div .noULPad ul {
 	.jk-top {
 		background-image:url('https://domdak.github.io/jk25/Panorama-lg.jpg');
 	}
-	div.mobileHead {
+	div.mobileHead, .dynamicText em {
 		visibility: hidden;
 		content-visibility: hidden;
 		height: 0px !important;
@@ -483,7 +486,7 @@ div .noULPad ul {
 		width: 100%;
 		max-width: 25rem;
 	}
-	div.fillerDesktop, div.desktopHead {
+	div.fillerDesktop, div.desktopHead, .dynamicText b {
 		visibility: hidden;
 		content-visibility: hidden;
 		height: 0px !important;
