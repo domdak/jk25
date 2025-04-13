@@ -5,7 +5,9 @@
 }
 
 .dynamicText b, .dynamicText em {
-	text-decoration: none;
+	text-decoration: none !important;
+	font-weight: normal !important;
+	font-style: normal !important;
 }
 
 .paul-img-credit {
@@ -216,6 +218,7 @@ div .noULPad ul {
 		height: 0px !important;
 		padding: 0 !important;
         margin: 0 !important;
+		display: none !important;
 	}
 	div.desktopHead {
 		margin-top: 0.5rem
@@ -493,6 +496,7 @@ div .noULPad ul {
 		height: 0px !important;
 		padding: 0 !important;
         margin: 0 !important;
+		display: none !important;
 	}
 }
 
