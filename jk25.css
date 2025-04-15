@@ -4,6 +4,10 @@
 	padding-top: 0 !important;
 }
 
+.new {
+	color: #CD5909;
+}
+
 .dynamicText strong, .dynamicText em {
 	text-decoration: none !important;
 	font-weight: normal !important;
